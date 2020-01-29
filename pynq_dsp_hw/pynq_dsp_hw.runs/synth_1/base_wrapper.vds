@@ -1,0 +1,986 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Thu Jan 30 02:02:49 2020
+# Process ID: 18748
+# Current directory: C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1
+# Command line: vivado.exe -log base_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_wrapper.tcl
+# Log file: C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/base_wrapper.vds
+# Journal file: C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/repos/pynq_dsp_hw/from_xilinx_pynq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/repos/pynq_dsp_hw/from_kamiyaowl_pynq_dsp_hls'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+add_files: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 412.871 ; gain = 117.492
+Command: synth_design -top base_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6296 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 894.895 ; gain = 185.559
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'base_wrapper' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/hdl/base_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:36115]
+INFO: [Synth 8-6157] synthesizing module 'base' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:13]
+INFO: [Synth 8-6157] synthesizing module 'base_audio_codec_ctrl_0_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_audio_codec_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_audio_codec_ctrl_0_0' (2#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_audio_codec_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_axi_interconnect_1_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:5711]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_11XRN2T' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27856]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_11XRN2T' (3#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27856]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_LOBR8G' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:48547]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_LOBR8G' (4#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:48547]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1MKA9QU' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49557]
+INFO: [Synth 8-6157] synthesizing module 'base_auto_pc_13' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_pc_13_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_auto_pc_13' (5#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_pc_13_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1MKA9QU' (6#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49557]
+INFO: [Synth 8-6157] synthesizing module 'base_xbar_11' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_11_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_xbar_11' (7#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_11_stub.v:6]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'base_xbar_11' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:6214]
+INFO: [Synth 8-6155] done synthesizing module 'base_axi_interconnect_1_0' (8#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:5711]
+INFO: [Synth 8-6157] synthesizing module 'base_axi_interconnect_0_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:3192]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1QJ9JNT' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:28183]
+INFO: [Synth 8-6157] synthesizing module 'base_auto_pc_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_auto_pc_0' (9#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1QJ9JNT' (10#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:28183]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_B18IYK' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:47778]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_B18IYK' (11#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:47778]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1FTU5CA' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49411]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1FTU5CA' (12#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49411]
+INFO: [Synth 8-6157] synthesizing module 's02_couplers_imp_1J4F2HD' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49847]
+INFO: [Synth 8-6155] done synthesizing module 's02_couplers_imp_1J4F2HD' (13#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49847]
+INFO: [Synth 8-6157] synthesizing module 's03_couplers_imp_PFFO6F' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49993]
+INFO: [Synth 8-6155] done synthesizing module 's03_couplers_imp_PFFO6F' (14#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49993]
+INFO: [Synth 8-6157] synthesizing module 'base_xbar_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_xbar_0' (15#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_axi_interconnect_0_0' (16#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:3192]
+INFO: [Synth 8-6157] synthesizing module 'base_axi_mem_intercon_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:6255]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1UXCXRT' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:28868]
+INFO: [Synth 8-6157] synthesizing module 'base_auto_pc_1' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_auto_pc_1' (17#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1UXCXRT' (18#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:28868]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_FF1AKS' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:48049]
+INFO: [Synth 8-6157] synthesizing module 'base_auto_us_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_us_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_auto_us_0' (19#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_auto_us_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'auto_us' of module 'base_auto_us_0' has 40 connections declared, but only 39 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:48200]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_FF1AKS' (20#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:48049]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1BCAG1M' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49123]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1BCAG1M' (21#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:49123]
+INFO: [Synth 8-6157] synthesizing module 'base_xbar_1' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_xbar_1' (22#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_1_stub.v:6]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'base_xbar_1' has 78 connections declared, but only 71 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:6801]
+INFO: [Synth 8-6155] done synthesizing module 'base_axi_mem_intercon_0' (23#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:6255]
+INFO: [Synth 8-6157] synthesizing module 'base_btns_gpio_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_btns_gpio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_btns_gpio_0' (24#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_btns_gpio_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_bypass_0_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_bypass_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_bypass_0_0' (25#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_bypass_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_clk_wiz_10MHz_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_clk_wiz_10MHz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'base_clk_wiz_10MHz_0' (26#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_clk_wiz_10MHz_0_stub.v:5]
+WARNING: [Synth 8-7023] instance 'clk_wiz_10MHz' of module 'base_clk_wiz_10MHz_0' has 4 connections declared, but only 3 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:1608]
+INFO: [Synth 8-6157] synthesizing module 'base_concat_interrupts_0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_concat_interrupts_0/synth/base_concat_interrupts_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 6 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 5 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 16 - type: integer 
+	Parameter NUM_PORTS bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (27#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'base_concat_interrupts_0' (28#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_concat_interrupts_0/synth/base_concat_interrupts_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'base_concat_pmodb_0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_concat_pmodb_0/synth/base_concat_pmodb_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 8 - type: integer 
+	Parameter IN1_WIDTH bound to: 8 - type: integer 
+	Parameter IN2_WIDTH bound to: 8 - type: integer 
+	Parameter IN3_WIDTH bound to: 8 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter NUM_PORTS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized0' (28#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'base_concat_pmodb_0' (29#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_concat_pmodb_0/synth/base_concat_pmodb_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'base_concat_rp_0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_concat_rp_0/synth/base_concat_rp_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized1' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 28 - type: integer 
+	Parameter IN1_WIDTH bound to: 28 - type: integer 
+	Parameter IN2_WIDTH bound to: 8 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 64 - type: integer 
+	Parameter NUM_PORTS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized1' (29#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'base_concat_rp_0' (30#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_concat_rp_0/synth/base_concat_rp_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'base_constant_8bit_0_0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_constant_8bit_0_0/synth/base_constant_8bit_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant' (31#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'base_constant_8bit_0_0' (32#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_constant_8bit_0_0/synth/base_constant_8bit_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'iop_arduino_imp_HQH550' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21884]
+INFO: [Synth 8-6157] synthesizing module 'base_arduino_gpio_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_arduino_gpio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_arduino_gpio_0' (33#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_arduino_gpio_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_dff_en_reset_vector_0_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_dff_en_reset_vector_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_dff_en_reset_vector_0_0' (34#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_dff_en_reset_vector_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_iic_direct_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_iic_direct_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_iic_direct_0' (35#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_iic_direct_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'iic_direct' of module 'base_iic_direct_0' has 27 connections declared, but only 26 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:22671]
+INFO: [Synth 8-6157] synthesizing module 'base_intc_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_intc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_intc_0' (36#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_intc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_interrupt_concat_0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_interrupt_concat_0/synth/base_interrupt_concat_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized2' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 6 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 11 - type: integer 
+	Parameter NUM_PORTS bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat__parameterized2' (36#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'base_interrupt_concat_0' (37#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_interrupt_concat_0/synth/base_interrupt_concat_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'base_intr_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_intr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_intr_0' (38#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_intr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_io_switch_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_io_switch_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_io_switch_0' (39#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_io_switch_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'lmb_imp_1LYQ59K' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27366]
+INFO: [Synth 8-6157] synthesizing module 'base_dlmb_v10_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_dlmb_v10_0' (40#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'base_dlmb_v10_0' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27510]
+INFO: [Synth 8-6157] synthesizing module 'base_ilmb_v10_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_ilmb_v10_0' (41#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'base_ilmb_v10_0' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27535]
+INFO: [Synth 8-6157] synthesizing module 'base_lmb_bram_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_lmb_bram_0' (42#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'base_lmb_bram_0' has 16 connections declared, but only 14 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27560]
+INFO: [Synth 8-6157] synthesizing module 'base_lmb_bram_if_cntlr_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_lmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_lmb_bram_if_cntlr_0' (43#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_lmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'lmb_imp_1LYQ59K' (44#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27366]
+INFO: [Synth 8-6157] synthesizing module 'base_logic_1_0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_logic_1_0/synth/base_logic_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized0' [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized0' (44#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'base_logic_1_0' (45#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_logic_1_0/synth/base_logic_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'base_mb_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_mb_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_mb_0' (46#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_mb_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'mb' of module 'base_mb_0' has 52 connections declared, but only 51 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:22826]
+INFO: [Synth 8-6157] synthesizing module 'base_mb_bram_ctrl_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_mb_bram_ctrl_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_mb_bram_ctrl_0' (47#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_mb_bram_ctrl_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_microblaze_0_axi_periph_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:7484]
+INFO: [Synth 8-6157] synthesizing module 'i00_couplers_imp_1JRUJ0W' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21183]
+INFO: [Synth 8-6155] done synthesizing module 'i00_couplers_imp_1JRUJ0W' (48#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21183]
+INFO: [Synth 8-6157] synthesizing module 'i01_couplers_imp_NBK9EU' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21329]
+INFO: [Synth 8-6155] done synthesizing module 'i01_couplers_imp_NBK9EU' (49#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21329]
+INFO: [Synth 8-6157] synthesizing module 'i02_couplers_imp_B7RREL' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21475]
+INFO: [Synth 8-6155] done synthesizing module 'i02_couplers_imp_B7RREL' (50#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21475]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_83OWNR' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:29795]
+INFO: [Synth 8-6157] synthesizing module 'base_m00_regslice_30' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m00_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m00_regslice_30' (51#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m00_regslice_30_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm00_regslice' of module 'base_m00_regslice_30' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:29954]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_83OWNR' (52#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:29795]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_ZKWTUP' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:32360]
+INFO: [Synth 8-6157] synthesizing module 'base_m01_regslice_30' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m01_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m01_regslice_30' (53#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m01_regslice_30_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm01_regslice' of module 'base_m01_regslice_30' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:32519]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_ZKWTUP' (54#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:32360]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1Y0SZJU' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:33944]
+INFO: [Synth 8-6157] synthesizing module 'base_m02_regslice_30' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m02_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m02_regslice_30' (55#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m02_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1Y0SZJU' (56#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:33944]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_R04NF0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:36441]
+INFO: [Synth 8-6157] synthesizing module 'base_m03_regslice_30' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m03_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m03_regslice_30' (57#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m03_regslice_30_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm03_regslice' of module 'base_m03_regslice_30' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:36600]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_R04NF0' (58#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:36441]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_1A5ZKC' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:37041]
+INFO: [Synth 8-6157] synthesizing module 'base_m04_regslice_25' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m04_regslice_25_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m04_regslice_25' (59#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m04_regslice_25_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm04_regslice' of module 'base_m04_regslice_25' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:37200]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_1A5ZKC' (60#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:37041]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_16LXAGQ' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:38405]
+INFO: [Synth 8-6157] synthesizing module 'base_m05_regslice_25' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m05_regslice_25_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m05_regslice_25' (61#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m05_regslice_25_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm05_regslice' of module 'base_m05_regslice_25' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:38564]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_16LXAGQ' (62#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:38405]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_1RSUW2P' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:40379]
+INFO: [Synth 8-6157] synthesizing module 'base_m06_regslice_25' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m06_regslice_25_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m06_regslice_25' (63#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m06_regslice_25_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm06_regslice' of module 'base_m06_regslice_25' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:40538]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_1RSUW2P' (64#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:40379]
+INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_XKK68N' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42295]
+INFO: [Synth 8-6157] synthesizing module 'base_m07_regslice_25' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m07_regslice_25_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m07_regslice_25' (65#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m07_regslice_25_stub.v:6]
+WARNING: [Synth 8-3848] Net M_AXI_arburst in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42357]
+WARNING: [Synth 8-3848] Net M_AXI_arcache in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42358]
+WARNING: [Synth 8-3848] Net M_AXI_arlen in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42359]
+WARNING: [Synth 8-3848] Net M_AXI_arlock in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42360]
+WARNING: [Synth 8-3848] Net M_AXI_arqos in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42362]
+WARNING: [Synth 8-3848] Net M_AXI_arregion in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42364]
+WARNING: [Synth 8-3848] Net M_AXI_arsize in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42365]
+WARNING: [Synth 8-3848] Net M_AXI_awburst in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42368]
+WARNING: [Synth 8-3848] Net M_AXI_awcache in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42369]
+WARNING: [Synth 8-3848] Net M_AXI_awlen in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42370]
+WARNING: [Synth 8-3848] Net M_AXI_awlock in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42371]
+WARNING: [Synth 8-3848] Net M_AXI_awqos in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42373]
+WARNING: [Synth 8-3848] Net M_AXI_awregion in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42375]
+WARNING: [Synth 8-3848] Net M_AXI_awsize in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42376]
+WARNING: [Synth 8-3848] Net M_AXI_wlast in module/entity m07_couplers_imp_XKK68N does not have driver. [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42387]
+INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_XKK68N' (66#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42295]
+WARNING: [Synth 8-7023] instance 'm07_couplers' of module 'm07_couplers_imp_XKK68N' has 58 connections declared, but only 43 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:9769]
+INFO: [Synth 8-6157] synthesizing module 'm08_couplers_imp_CVN3HD' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42737]
+INFO: [Synth 8-6157] synthesizing module 'base_m08_regslice_14' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m08_regslice_14_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m08_regslice_14' (67#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m08_regslice_14_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm08_regslice' of module 'base_m08_regslice_14' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42896]
+INFO: [Synth 8-6155] done synthesizing module 'm08_couplers_imp_CVN3HD' (68#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:42737]
+INFO: [Synth 8-6157] synthesizing module 'm09_couplers_imp_1DRXJPZ' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:43501]
+INFO: [Synth 8-6157] synthesizing module 'base_m09_regslice_12' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m09_regslice_12_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m09_regslice_12' (69#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m09_regslice_12_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm09_regslice' of module 'base_m09_regslice_12' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:43660]
+INFO: [Synth 8-6155] done synthesizing module 'm09_couplers_imp_1DRXJPZ' (70#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:43501]
+INFO: [Synth 8-6157] synthesizing module 'm10_couplers_imp_19PYWFZ' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44101]
+INFO: [Synth 8-6157] synthesizing module 'base_m10_regslice_8' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m10_regslice_8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m10_regslice_8' (71#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m10_regslice_8_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm10_regslice' of module 'base_m10_regslice_8' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44260]
+INFO: [Synth 8-6155] done synthesizing module 'm10_couplers_imp_19PYWFZ' (72#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44101]
+INFO: [Synth 8-6157] synthesizing module 'm11_couplers_imp_G15421' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44501]
+INFO: [Synth 8-6157] synthesizing module 'base_m11_regslice_8' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m11_regslice_8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m11_regslice_8' (73#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m11_regslice_8_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm11_regslice' of module 'base_m11_regslice_8' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44660]
+INFO: [Synth 8-6155] done synthesizing module 'm11_couplers_imp_G15421' (74#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44501]
+INFO: [Synth 8-6157] synthesizing module 'm12_couplers_imp_JBQ1HU' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44911]
+INFO: [Synth 8-6157] synthesizing module 'base_m12_regslice_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m12_regslice_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m12_regslice_0' (75#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m12_regslice_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm12_regslice' of module 'base_m12_regslice_0' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45070]
+INFO: [Synth 8-6155] done synthesizing module 'm12_couplers_imp_JBQ1HU' (76#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44911]
+INFO: [Synth 8-6157] synthesizing module 'm13_couplers_imp_1O461D0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45111]
+INFO: [Synth 8-6157] synthesizing module 'base_m13_regslice_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m13_regslice_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m13_regslice_0' (77#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m13_regslice_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm13_regslice' of module 'base_m13_regslice_0' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45270]
+INFO: [Synth 8-6155] done synthesizing module 'm13_couplers_imp_1O461D0' (78#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45111]
+INFO: [Synth 8-6157] synthesizing module 'm14_couplers_imp_1GJT0H0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45311]
+INFO: [Synth 8-6157] synthesizing module 'base_m14_regslice_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m14_regslice_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m14_regslice_0' (79#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m14_regslice_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm14_couplers_imp_1GJT0H0' (80#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45311]
+INFO: [Synth 8-6157] synthesizing module 'm15_couplers_imp_8ZTDCI' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45521]
+INFO: [Synth 8-6157] synthesizing module 'base_m15_regslice_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m15_regslice_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m15_regslice_0' (81#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m15_regslice_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm15_regslice' of module 'base_m15_regslice_0' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45680]
+INFO: [Synth 8-6155] done synthesizing module 'm15_couplers_imp_8ZTDCI' (82#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45521]
+INFO: [Synth 8-6157] synthesizing module 'm16_couplers_imp_PJCXZD' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45721]
+INFO: [Synth 8-6157] synthesizing module 'base_m16_regslice_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m16_regslice_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_m16_regslice_0' (83#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_m16_regslice_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'm16_regslice' of module 'base_m16_regslice_0' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45880]
+INFO: [Synth 8-6155] done synthesizing module 'm16_couplers_imp_PJCXZD' (84#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:45721]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1OXEFDU' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:46846]
+INFO: [Synth 8-6157] synthesizing module 'base_s00_regslice_30' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_s00_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_s00_regslice_30' (85#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_s00_regslice_30_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1OXEFDU' (86#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:46846]
+INFO: [Synth 8-6157] synthesizing module 'base_tier2_xbar_0_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_tier2_xbar_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_tier2_xbar_0_0' (87#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_tier2_xbar_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_tier2_xbar_1_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_tier2_xbar_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_tier2_xbar_1_0' (88#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_tier2_xbar_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_tier2_xbar_2_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_tier2_xbar_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_tier2_xbar_2_0' (89#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_tier2_xbar_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'base_xbar_2' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_xbar_2' (90#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_xbar_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_microblaze_0_axi_periph_0' (91#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:7484]
+WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'base_microblaze_0_axi_periph_0' has 352 connections declared, but only 341 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:22925]
+INFO: [Synth 8-6157] synthesizing module 'base_rst_clk_wiz_1_100M_0' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_rst_clk_wiz_1_100M_0' (92#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_rst_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'base_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 9 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:23267]
+INFO: [Synth 8-6157] synthesizing module 'spi_subsystem_imp_O4QPRN' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:50456]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'base_spi_direct_0' (93#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_spi_direct_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'base_spi_shared_0' (94#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/.Xil/Vivado-18748-XPS15/realtime/base_spi_shared_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'spi_subsystem_imp_O4QPRN' (95#1) [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:50456]
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 0 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (96#1) [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/f044/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 1 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 2 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 3 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 4 - type: integer 
+	Parameter DIN_TO bound to: 4 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 5 - type: integer 
+	Parameter DIN_TO bound to: 5 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 6 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 7 - type: integer 
+	Parameter DIN_TO bound to: 7 - type: integer 
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 8 - type: integer 
+	Parameter NUM_PORTS bound to: 8 - type: integer 
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 6 - type: integer 
+	Parameter NUM_PORTS bound to: 6 - type: integer 
+WARNING: [Synth 8-7023] instance 'timer_0' of module 'base_timer_0_0' has 26 connections declared, but only 25 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51294]
+WARNING: [Synth 8-7023] instance 'timer_3' of module 'base_timer_3_0' has 26 connections declared, but only 25 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51374]
+WARNING: [Synth 8-7023] instance 'timer_4' of module 'base_timer_4_0' has 26 connections declared, but only 25 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51400]
+WARNING: [Synth 8-7023] instance 'timer_5' of module 'base_timer_5_0' has 26 connections declared, but only 25 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51426]
+WARNING: [Synth 8-7023] instance 'xadc' of module 'base_xadc_0' has 39 connections declared, but only 33 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:23473]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 5 - type: integer 
+	Parameter NUM_PORTS bound to: 5 - type: integer 
+WARNING: [Synth 8-7023] instance 'iic' of module 'base_iic_0' has 27 connections declared, but only 26 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:24032]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 3 - type: integer 
+	Parameter NUM_PORTS bound to: 3 - type: integer 
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'base_dlmb_v10_1' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27020]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'base_ilmb_v10_1' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27045]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'base_lmb_bram_1' has 16 connections declared, but only 14 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27070]
+WARNING: [Synth 8-7023] instance 'mb' of module 'base_mb_1' has 52 connections declared, but only 51 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:24188]
+WARNING: [Synth 8-7023] instance 'm00_regslice' of module 'base_m00_regslice_31' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:30518]
+WARNING: [Synth 8-7023] instance 'm01_regslice' of module 'base_m01_regslice_31' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:31318]
+WARNING: [Synth 8-7023] instance 'm03_regslice' of module 'base_m03_regslice_31' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:35636]
+WARNING: [Synth 8-7023] instance 'm04_regslice' of module 'base_m04_regslice_26' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:37600]
+WARNING: [Synth 8-7023] instance 'm05_regslice' of module 'base_m05_regslice_26' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:39128]
+WARNING: [Synth 8-7023] instance 'm06_regslice' of module 'base_m06_regslice_26' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:39928]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'base_rst_clk_wiz_1_100M_1' has 10 connections declared, but only 9 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:24467]
+WARNING: [Synth 8-7023] instance 'timer' of module 'base_timer_6' has 26 connections declared, but only 25 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:24511]
+WARNING: [Synth 8-7023] instance 'iic' of module 'base_iic_1' has 27 connections declared, but only 26 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:25062]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'base_dlmb_v10_2' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27265]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'base_ilmb_v10_2' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27290]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'base_lmb_bram_2' has 16 connections declared, but only 14 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27315]
+WARNING: [Synth 8-7023] instance 'mb' of module 'base_mb_2' has 52 connections declared, but only 51 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:25218]
+WARNING: [Synth 8-7023] instance 'm00_regslice' of module 'base_m00_regslice_32' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:30918]
+WARNING: [Synth 8-7023] instance 'm01_regslice' of module 'base_m01_regslice_32' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:31118]
+WARNING: [Synth 8-7023] instance 'm03_regslice' of module 'base_m03_regslice_32' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:36800]
+WARNING: [Synth 8-7023] instance 'm04_regslice' of module 'base_m04_regslice_27' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:37400]
+WARNING: [Synth 8-7023] instance 'm05_regslice' of module 'base_m05_regslice_27' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:38364]
+WARNING: [Synth 8-7023] instance 'm06_regslice' of module 'base_m06_regslice_27' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:40738]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'base_rst_clk_wiz_1_100M_2' has 10 connections declared, but only 9 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:25497]
+WARNING: [Synth 8-7023] instance 'timer' of module 'base_timer_7' has 26 connections declared, but only 25 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:25541]
+WARNING: [Synth 8-7023] instance 'iic_0' of module 'base_iic_0_0' has 27 connections declared, but only 26 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21828]
+WARNING: [Synth 8-7023] instance 'iic_1' of module 'base_iic_1_0' has 27 connections declared, but only 26 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:21855]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 2 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 8 - type: integer 
+	Parameter NUM_PORTS bound to: 7 - type: integer 
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'base_dlmb_v10_3' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27755]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'base_ilmb_v10_3' has 25 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27780]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'base_lmb_bram_3' has 16 connections declared, but only 14 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:27805]
+WARNING: [Synth 8-7023] instance 'mb' of module 'base_mb_3' has 52 connections declared, but only 51 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:26360]
+WARNING: [Synth 8-7023] instance 'm00_regslice' of module 'base_m00_regslice_33' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:30718]
+WARNING: [Synth 8-7023] instance 'm01_regslice' of module 'base_m01_regslice_33' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:31928]
+WARNING: [Synth 8-7023] instance 'm03_regslice' of module 'base_m03_regslice_33' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:35436]
+WARNING: [Synth 8-7023] instance 'm04_regslice' of module 'base_m04_regslice_28' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:38164]
+WARNING: [Synth 8-7023] instance 'm05_regslice' of module 'base_m05_regslice_28' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:39328]
+WARNING: [Synth 8-7023] instance 'm06_regslice' of module 'base_m06_regslice_28' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:39728]
+WARNING: [Synth 8-7023] instance 'm07_regslice' of module 'base_m07_regslice_28' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:41470]
+WARNING: [Synth 8-7023] instance 'm08_regslice' of module 'base_m08_regslice_15' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:43096]
+WARNING: [Synth 8-7023] instance 'm09_regslice' of module 'base_m09_regslice_13' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:43860]
+WARNING: [Synth 8-7023] instance 'm10_regslice' of module 'base_m10_regslice_9' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:44460]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'base_rst_clk_wiz_1_100M_3' has 10 connections declared, but only 9 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:26739]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 2 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+WARNING: [Synth 8-7023] instance 'timer_0' of module 'base_timer_0_1' has 26 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51625]
+WARNING: [Synth 8-7023] instance 'timer_1' of module 'base_timer_1_1' has 26 connections declared, but only 24 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51650]
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 6 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 2 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 4 - type: integer 
+	Parameter DIN_TO bound to: 4 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 0 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 5 - type: integer 
+	Parameter DIN_TO bound to: 5 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 1 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 7 - type: integer 
+	Parameter DIN_TO bound to: 7 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 3 - type: integer 
+	Parameter DIN_WIDTH bound to: 10 - type: integer 
+	Parameter DIN_FROM bound to: 8 - type: integer 
+	Parameter DIN_TO bound to: 8 - type: integer 
+WARNING: [Synth 8-7023] instance 'ps7_0' of module 'base_ps7_0_0' has 246 connections declared, but only 233 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:2060]
+WARNING: [Synth 8-7023] instance 'm00_regslice' of module 'base_m00_regslice_28' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:30318]
+WARNING: [Synth 8-7023] instance 'm02_regslice' of module 'base_m02_regslice_28' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:33483]
+WARNING: [Synth 8-7023] instance 'm04_regslice' of module 'base_m04_regslice_24' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:37964]
+WARNING: [Synth 8-7023] instance 'm05_regslice' of module 'base_m05_regslice_24' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:38928]
+WARNING: [Synth 8-7023] instance 'm07_regslice' of module 'base_m07_regslice_24' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:41834]
+WARNING: [Synth 8-7023] instance 'm08_regslice' of module 'base_m08_regslice_13' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:43460]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'base_auto_pc_9' has 79 connections declared, but only 77 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:47409]
+WARNING: [Synth 8-7023] instance 'm00_regslice' of module 'base_m00_regslice_29' has 80 connections declared, but only 76 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:29716]
+WARNING: [Synth 8-7023] instance 'm01_regslice' of module 'base_m01_regslice_29' has 80 connections declared, but only 76 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:32871]
+WARNING: [Synth 8-7023] instance 'm02_regslice' of module 'base_m02_regslice_29' has 80 connections declared, but only 76 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:34465]
+WARNING: [Synth 8-7023] instance 'm03_regslice' of module 'base_m03_regslice_29' has 80 connections declared, but only 76 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:36362]
+WARNING: [Synth 8-7023] instance 's00_regslice' of module 'base_s00_regslice_29' has 80 connections declared, but only 78 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:46765]
+WARNING: [Synth 8-689] width (12) of port connection 'm_axi_wstrb' does not match port width (16) of module 'base_xbar_8' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:19267]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'base_xbar_8' has 40 connections declared, but only 38 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:19249]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_fclk0' of module 'base_rst_ps7_0_fclk0_0' has 10 connections declared, but only 7 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:2884]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_fclk1' of module 'base_rst_ps7_0_fclk1_0' has 10 connections declared, but only 7 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:2892]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_fclk3' of module 'base_rst_ps7_0_fclk3_0' has 10 connections declared, but only 7 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:2900]
+WARNING: [Synth 8-7023] instance 'slice_pmodb_gpio' of module 'base_slice_pmodb_gpio_0' has 6 connections declared, but only 5 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:2908]
+WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'base_axi_dma_0_0' has 43 connections declared, but only 41 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51911]
+WARNING: [Synth 8-7023] instance 'axis_data_fifo_0' of module 'base_axis_data_fifo_0_0' has 22 connections declared, but only 16 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51953]
+	Parameter CONST_VAL bound to: 255 - type: integer 
+	Parameter CONST_WIDTH bound to: 8 - type: integer 
+WARNING: [Synth 8-7023] instance 'trace_cntrl_64_0' of module 'base_trace_cntrl_64_0_0' has 38 connections declared, but only 36 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:51972]
+WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'base_axi_dma_0_1' has 43 connections declared, but only 41 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:52245]
+WARNING: [Synth 8-7023] instance 'axis_data_fifo_0' of module 'base_axis_data_fifo_0_1' has 22 connections declared, but only 16 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:52287]
+	Parameter CONST_VAL bound to: 15 - type: integer 
+	Parameter CONST_WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-7023] instance 'trace_cntrl_32_0' of module 'base_trace_cntrl_32_0_0' has 38 connections declared, but only 36 given [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:52306]
+INFO: [Common 17-14] Message 'Synth 8-7023' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_awready' does not match port width (2) of module 'base_xbar_10' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:7466]
+WARNING: [Synth 8-689] width (2) of port connection 's_axi_bresp' does not match port width (4) of module 'base_xbar_10' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:7470]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_bvalid' does not match port width (2) of module 'base_xbar_10' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:7471]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_wready' does not match port width (2) of module 'base_xbar_10' [C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/synth/base.v:7479]
+	Parameter IN0_WIDTH bound to: 8 - type: integer 
+	Parameter IN1_WIDTH bound to: 20 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 28 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 5 - type: integer 
+	Parameter DIN_TO bound to: 4 - type: integer 
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 7 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+	Parameter IN0_WIDTH bound to: 2 - type: integer 
+	Parameter IN1_WIDTH bound to: 2 - type: integer 
+	Parameter IN2_WIDTH bound to: 2 - type: integer 
+	Parameter IN3_WIDTH bound to: 2 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 8 - type: integer 
+	Parameter NUM_PORTS bound to: 4 - type: integer 
+	Parameter DIN_WIDTH bound to: 28 - type: integer 
+	Parameter DIN_FROM bound to: 27 - type: integer 
+	Parameter DIN_TO bound to: 8 - type: integer 
+	Parameter DIN_WIDTH bound to: 28 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+	Parameter DIN_WIDTH bound to: 28 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+	Parameter DIN_WIDTH bound to: 28 - type: integer 
+	Parameter DIN_FROM bound to: 5 - type: integer 
+	Parameter DIN_TO bound to: 4 - type: integer 
+	Parameter DIN_WIDTH bound to: 28 - type: integer 
+	Parameter DIN_FROM bound to: 7 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter NUM_PORTS bound to: 1 - type: integer 
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In1[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In2[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In3[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat__parameterized11 has unconnected port In31[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized24 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized23 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_2_xlslice__parameterized22 has unconnected port Din[11]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1045.984 ; gain = 336.648
+---------------------------------------------------------------------------------

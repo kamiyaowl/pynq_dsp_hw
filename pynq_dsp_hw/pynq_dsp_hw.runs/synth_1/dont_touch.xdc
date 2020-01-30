@@ -5,6 +5,8 @@
 
 # XDC: C:/Users/user/repos/PYNQ-origin/boards/Pynq-Z2/base/vivado/constraints/base.xdc
 
+# XDC: new/debug.xdc
+
 # Block Designs: bd/base/base.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base || ORIG_REF_NAME==base} -quiet] -quiet
 

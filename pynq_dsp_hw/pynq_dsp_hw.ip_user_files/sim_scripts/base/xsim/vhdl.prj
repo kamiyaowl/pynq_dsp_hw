@@ -122,5 +122,9 @@ vhdl xil_defaultlib  \
 "../../../bd/base/ip/base_rgb2dvi_0_0/sim/base_rgb2dvi_0_0.vhd" \
 "../../../bd/base/ip/base_vtc_out_0/sim/base_vtc_out_0.vhd" \
 "../../../bd/base/ip/base_proc_sys_reset_pixelclk_0/sim/base_proc_sys_reset_pixelclk_0.vhd" \
+"../../../../pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/d677/hdl/ip/pynq_dsp_hls_ap_fcmp_0_no_dsp_32.vhd" \
+"../../../../pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/d677/hdl/ip/pynq_dsp_hls_ap_fmul_2_max_dsp_32.vhd" \
+"../../../../pynq_dsp_hw.srcs/sources_1/bd/base/ipshared/d677/hdl/ip/pynq_dsp_hls_ap_sitofp_4_no_dsp_32.vhd" \
+"../../../bd/base/ip/base_pynq_dsp_hls_0_0/sim/base_pynq_dsp_hls_0_0.vhd" \
 
 nosort

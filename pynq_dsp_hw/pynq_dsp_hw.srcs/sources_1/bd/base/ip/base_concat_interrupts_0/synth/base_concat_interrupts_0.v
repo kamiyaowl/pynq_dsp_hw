@@ -53,7 +53,7 @@
 (* X_CORE_INFO = "xlconcat_v2_1_3_xlconcat,Vivado 2019.1.3" *)
 (* CHECK_LICENSE_TYPE = "base_concat_interrupts_0,xlconcat_v2_1_3_xlconcat,{}" *)
 (* CORE_GENERATION_INFO = "base_concat_interrupts_0,xlconcat_v2_1_3_xlconcat,{x_ipProduct=Vivado 2019.1.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=xlconcat,x_ipVersion=2.1,x_ipCoreRevision=3,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,IN0_WIDTH=6,IN1_WIDTH=1,IN2_WIDTH=1,IN3_WIDTH=1,IN4_WIDTH=5,IN5_WIDTH=1,IN6_WIDTH=1,IN7_WIDTH=1,IN8_WIDTH=1,IN9_WIDTH=1,IN10_WIDTH=1,IN11_WIDTH=1,IN12_WIDTH=1,IN13_WIDTH=1,IN14_WIDTH=1,IN15_WIDTH=1,IN16_WIDTH=1,IN17_WIDTH=1,IN18_WIDTH=1,IN19_WIDTH=1,IN20_WIDTH=1,IN21_WIDTH=1,IN22_WIDTH=1\
-,IN23_WIDTH=1,IN24_WIDTH=1,IN25_WIDTH=1,IN26_WIDTH=1,IN27_WIDTH=1,IN28_WIDTH=1,IN29_WIDTH=1,IN30_WIDTH=1,IN31_WIDTH=1,dout_width=16,NUM_PORTS=7}" *)
+,IN23_WIDTH=1,IN24_WIDTH=1,IN25_WIDTH=1,IN26_WIDTH=1,IN27_WIDTH=1,IN28_WIDTH=1,IN29_WIDTH=1,IN30_WIDTH=1,IN31_WIDTH=1,dout_width=17,NUM_PORTS=8}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module base_concat_interrupts_0 (
   In0,
@@ -63,6 +63,7 @@ module base_concat_interrupts_0 (
   In4,
   In5,
   In6,
+  In7,
   dout
 );
 
@@ -73,7 +74,8 @@ input wire [0 : 0] In3;
 input wire [4 : 0] In4;
 input wire [0 : 0] In5;
 input wire [0 : 0] In6;
-output wire [15 : 0] dout;
+input wire [0 : 0] In7;
+output wire [16 : 0] dout;
 
   xlconcat_v2_1_3_xlconcat #(
     .IN0_WIDTH(6),
@@ -108,8 +110,8 @@ output wire [15 : 0] dout;
     .IN29_WIDTH(1),
     .IN30_WIDTH(1),
     .IN31_WIDTH(1),
-    .dout_width(16),
-    .NUM_PORTS(7)
+    .dout_width(17),
+    .NUM_PORTS(8)
   ) inst (
     .In0(In0),
     .In1(In1),
@@ -118,7 +120,7 @@ output wire [15 : 0] dout;
     .In4(In4),
     .In5(In5),
     .In6(In6),
-    .In7(1'B0),
+    .In7(In7),
     .In8(1'B0),
     .In9(1'B0),
     .In10(1'B0),

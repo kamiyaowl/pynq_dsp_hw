@@ -42,13 +42,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="3"/>
-    <Option Name="WTModelSimExportSim" Val="3"/>
-    <Option Name="WTQuestaExportSim" Val="3"/>
-    <Option Name="WTIesExportSim" Val="3"/>
-    <Option Name="WTVcsExportSim" Val="3"/>
-    <Option Name="WTRivieraExportSim" Val="3"/>
-    <Option Name="WTActivehdlExportSim" Val="3"/>
+    <Option Name="WTXSimExportSim" Val="4"/>
+    <Option Name="WTModelSimExportSim" Val="4"/>
+    <Option Name="WTQuestaExportSim" Val="4"/>
+    <Option Name="WTIesExportSim" Val="4"/>
+    <Option Name="WTVcsExportSim" Val="4"/>
+    <Option Name="WTRivieraExportSim" Val="4"/>
+    <Option Name="WTActivehdlExportSim" Val="4"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -69,59 +69,68 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_audio_codec_ctrl_0_0/base_audio_codec_ctrl_0_0.xci">
-          <Proxy FileSetName="base_audio_codec_ctrl_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_0_0/base_timer_0_0.xci">
+          <Proxy FileSetName="base_timer_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_0/base_xbar_0.xci">
-          <Proxy FileSetName="base_xbar_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_1_0/base_timer_1_0.xci">
+          <Proxy FileSetName="base_timer_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_1/base_ilmb_v10_1.xci">
-          <Proxy FileSetName="base_ilmb_v10_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_1/base_lmb_bram_1.xci">
-          <Proxy FileSetName="base_lmb_bram_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_1/base_lmb_bram_if_cntlr_1.xci">
-          <Proxy FileSetName="base_lmb_bram_if_cntlr_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_bram_ctrl_1/base_mb_bram_ctrl_1.xci">
-          <Proxy FileSetName="base_mb_bram_ctrl_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_0/base_ilmb_v10_0.xci">
+          <Proxy FileSetName="base_ilmb_v10_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_2_0/base_timer_2_0.xci">
           <Proxy FileSetName="base_timer_2_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_3/base_xbar_3.xci">
-          <Proxy FileSetName="base_xbar_3"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_3_0/base_timer_3_0.xci">
+          <Proxy FileSetName="base_timer_3_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_direct_0/base_iic_direct_0.xci">
-          <Proxy FileSetName="base_iic_direct_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_btns_gpio_0/base_btns_gpio_0.xci">
+          <Proxy FileSetName="base_btns_gpio_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_1/base_rst_clk_wiz_1_100M_1.xci">
-          <Proxy FileSetName="base_rst_clk_wiz_1_100M_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_0/base_xbar_0.xci">
+          <Proxy FileSetName="base_xbar_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_1/base_mb_1.xci">
-          <Proxy FileSetName="base_mb_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_4_0/base_timer_4_0.xci">
+          <Proxy FileSetName="base_timer_4_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_1/base_xbar_1.xci">
-          <Proxy FileSetName="base_xbar_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_0/base_lmb_bram_0.xci">
-          <Proxy FileSetName="base_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_direct_0/base_spi_direct_0.xci">
-          <Proxy FileSetName="base_spi_direct_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_5_0/base_timer_5_0.xci">
+          <Proxy FileSetName="base_timer_5_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_shared_0/base_spi_shared_0.xci">
           <Proxy FileSetName="base_spi_shared_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_0_0/base_timer_0_0.xci">
-          <Proxy FileSetName="base_timer_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_uartlite_0/base_uartlite_0.xci">
+          <Proxy FileSetName="base_uartlite_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_1/base_dff_en_reset_vector_0_1.xci">
-          <Proxy FileSetName="base_dff_en_reset_vector_0_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_0/base_lmb_bram_0.xci">
+          <Proxy FileSetName="base_lmb_bram_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_0/base_rst_clk_wiz_1_100M_0.xci">
+          <Proxy FileSetName="base_rst_clk_wiz_1_100M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_direct_0/base_iic_direct_0.xci">
+          <Proxy FileSetName="base_iic_direct_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_0/base_intr_0.xci">
+          <Proxy FileSetName="base_intr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_0/base_io_switch_0.xci">
+          <Proxy FileSetName="base_io_switch_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_0/base_intc_0.xci">
+          <Proxy FileSetName="base_intc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_1/base_xbar_1.xci">
+          <Proxy FileSetName="base_xbar_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_0/base_mb_0.xci">
           <Proxy FileSetName="base_mb_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_arduino_gpio_0/base_arduino_gpio_0.xci">
+          <Proxy FileSetName="base_arduino_gpio_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_0/base_dff_en_reset_vector_0_0.xci">
+          <Proxy FileSetName="base_dff_en_reset_vector_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_bram_ctrl_0/base_mb_bram_ctrl_0.xci">
           <Proxy FileSetName="base_mb_bram_ctrl_0"/>
@@ -129,164 +138,26 @@
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_2/base_xbar_2.xci">
           <Proxy FileSetName="base_xbar_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_3_0/base_timer_3_0.xci">
-          <Proxy FileSetName="base_timer_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_5_0/base_timer_5_0.xci">
-          <Proxy FileSetName="base_timer_5_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_uartlite_0/base_uartlite_0.xci">
-          <Proxy FileSetName="base_uartlite_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_0/base_intc_0.xci">
-          <Proxy FileSetName="base_intc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_0/base_rst_clk_wiz_1_100M_0.xci">
-          <Proxy FileSetName="base_rst_clk_wiz_1_100M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_btns_gpio_0/base_btns_gpio_0.xci">
-          <Proxy FileSetName="base_btns_gpio_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dlmb_v10_0/base_dlmb_v10_0.xci">
-          <Proxy FileSetName="base_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_0/base_ilmb_v10_0.xci">
-          <Proxy FileSetName="base_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xadc_0/base_xadc_0.xci">
-          <Proxy FileSetName="base_xadc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_0/base_iic_0.xci">
-          <Proxy FileSetName="base_iic_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_arduino_gpio_0/base_arduino_gpio_0.xci">
-          <Proxy FileSetName="base_arduino_gpio_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_1_0/base_timer_1_0.xci">
-          <Proxy FileSetName="base_timer_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_4_0/base_timer_4_0.xci">
-          <Proxy FileSetName="base_timer_4_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_0/base_intr_0.xci">
-          <Proxy FileSetName="base_intr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_gpio_0/base_gpio_0.xci">
-          <Proxy FileSetName="base_gpio_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_1/base_intr_1.xci">
-          <Proxy FileSetName="base_intr_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_direct_0/base_spi_direct_0.xci">
+          <Proxy FileSetName="base_spi_direct_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_clk_wiz_10MHz_0/base_clk_wiz_10MHz_0.xci">
           <Proxy FileSetName="base_clk_wiz_10MHz_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_0/base_io_switch_0.xci">
-          <Proxy FileSetName="base_io_switch_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_0/base_lmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="base_lmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_audio_codec_ctrl_0_0/base_audio_codec_ctrl_0_0.xci">
+          <Proxy FileSetName="base_audio_codec_ctrl_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dlmb_v10_0/base_dlmb_v10_0.xci">
+          <Proxy FileSetName="base_dlmb_v10_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_1/base_intc_1.xci">
           <Proxy FileSetName="base_intc_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_0/base_dff_en_reset_vector_0_0.xci">
-          <Proxy FileSetName="base_dff_en_reset_vector_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_1/base_io_switch_1.xci">
-          <Proxy FileSetName="base_io_switch_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dlmb_v10_1/base_dlmb_v10_1.xci">
-          <Proxy FileSetName="base_dlmb_v10_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_0/base_lmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="base_lmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_6/base_timer_6.xci">
-          <Proxy FileSetName="base_timer_6"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_1/base_iic_1.xci">
-          <Proxy FileSetName="base_iic_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_3/base_dff_en_reset_vector_0_3.xci">
-          <Proxy FileSetName="base_dff_en_reset_vector_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_2/base_lmb_bram_if_cntlr_2.xci">
-          <Proxy FileSetName="base_lmb_bram_if_cntlr_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_3/base_mb_3.xci">
-          <Proxy FileSetName="base_mb_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_2/base_intr_2.xci">
-          <Proxy FileSetName="base_intr_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ps7_0_0/base_ps7_0_0.xci">
-          <Proxy FileSetName="base_ps7_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_5/base_xbar_5.xci">
-          <Proxy FileSetName="base_xbar_5"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_3/base_io_switch_3.xci">
-          <Proxy FileSetName="base_io_switch_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_leds_gpio_0/base_leds_gpio_0.xci">
-          <Proxy FileSetName="base_leds_gpio_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mdm_1_0/base_mdm_1_0.xci">
-          <Proxy FileSetName="base_mdm_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_6/base_xbar_6.xci">
-          <Proxy FileSetName="base_xbar_6"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_2/base_intc_2.xci">
-          <Proxy FileSetName="base_intc_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_0/base_spi_0.xci">
-          <Proxy FileSetName="base_spi_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_7/base_timer_7.xci">
-          <Proxy FileSetName="base_timer_7"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_bram_ctrl_3/base_mb_bram_ctrl_3.xci">
-          <Proxy FileSetName="base_mb_bram_ctrl_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_uartlite_1/base_uartlite_1.xci">
-          <Proxy FileSetName="base_uartlite_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_2/base_lmb_bram_2.xci">
-          <Proxy FileSetName="base_lmb_bram_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_2/base_dff_en_reset_vector_0_2.xci">
-          <Proxy FileSetName="base_dff_en_reset_vector_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_2/base_ilmb_v10_2.xci">
-          <Proxy FileSetName="base_ilmb_v10_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_2/base_mb_2.xci">
-          <Proxy FileSetName="base_mb_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_1_0/base_iic_1_0.xci">
-          <Proxy FileSetName="base_iic_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_0_1/base_timer_0_1.xci">
-          <Proxy FileSetName="base_timer_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_3/base_intc_3.xci">
-          <Proxy FileSetName="base_intc_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_4/base_xbar_4.xci">
-          <Proxy FileSetName="base_xbar_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_2/base_rst_clk_wiz_1_100M_2.xci">
-          <Proxy FileSetName="base_rst_clk_wiz_1_100M_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_gpio_1/base_gpio_1.xci">
-          <Proxy FileSetName="base_gpio_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_3/base_rst_clk_wiz_1_100M_3.xci">
-          <Proxy FileSetName="base_rst_clk_wiz_1_100M_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_1_0/base_spi_1_0.xci">
-          <Proxy FileSetName="base_spi_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_7/base_xbar_7.xci">
-          <Proxy FileSetName="base_xbar_7"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_gpio_0/base_gpio_0.xci">
+          <Proxy FileSetName="base_gpio_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dlmb_v10_2/base_dlmb_v10_2.xci">
           <Proxy FileSetName="base_dlmb_v10_2"/>
@@ -294,14 +165,56 @@
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_bram_ctrl_2/base_mb_bram_ctrl_2.xci">
           <Proxy FileSetName="base_mb_bram_ctrl_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_2/base_io_switch_2.xci">
-          <Proxy FileSetName="base_io_switch_2"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_1/base_spi_1.xci">
+          <Proxy FileSetName="base_spi_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_3/base_io_switch_3.xci">
+          <Proxy FileSetName="base_io_switch_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_1_0/base_spi_1_0.xci">
+          <Proxy FileSetName="base_spi_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_1/base_lmb_bram_1.xci">
+          <Proxy FileSetName="base_lmb_bram_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_2/base_dff_en_reset_vector_0_2.xci">
+          <Proxy FileSetName="base_dff_en_reset_vector_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_gpio_1/base_gpio_1.xci">
+          <Proxy FileSetName="base_gpio_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xadc_0/base_xadc_0.xci">
+          <Proxy FileSetName="base_xadc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_1/base_io_switch_1.xci">
+          <Proxy FileSetName="base_io_switch_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_3/base_xbar_3.xci">
+          <Proxy FileSetName="base_xbar_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_3/base_mb_3.xci">
+          <Proxy FileSetName="base_mb_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dlmb_v10_1/base_dlmb_v10_1.xci">
+          <Proxy FileSetName="base_dlmb_v10_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_1/base_ilmb_v10_1.xci">
+          <Proxy FileSetName="base_ilmb_v10_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_1/base_mb_1.xci">
+          <Proxy FileSetName="base_mb_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_2/base_ilmb_v10_2.xci">
+          <Proxy FileSetName="base_ilmb_v10_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_7/base_timer_7.xci">
+          <Proxy FileSetName="base_timer_7"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_6/base_timer_6.xci">
+          <Proxy FileSetName="base_timer_6"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_3/base_intr_3.xci">
           <Proxy FileSetName="base_intr_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_3/base_ilmb_v10_3.xci">
-          <Proxy FileSetName="base_ilmb_v10_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_3/base_lmb_bram_3.xci">
           <Proxy FileSetName="base_lmb_bram_3"/>
@@ -309,122 +222,206 @@
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_3/base_lmb_bram_if_cntlr_3.xci">
           <Proxy FileSetName="base_lmb_bram_if_cntlr_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_1_1/base_timer_1_1.xci">
-          <Proxy FileSetName="base_timer_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rpi_gpio_0/base_rpi_gpio_0.xci">
-          <Proxy FileSetName="base_rpi_gpio_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_1/base_spi_1.xci">
-          <Proxy FileSetName="base_spi_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_2/base_intc_2.xci">
+          <Proxy FileSetName="base_intc_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dlmb_v10_3/base_dlmb_v10_3.xci">
           <Proxy FileSetName="base_dlmb_v10_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_dynclk_0/base_axi_dynclk_0.xci">
-          <Proxy FileSetName="base_axi_dynclk_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_1_1/base_timer_1_1.xci">
+          <Proxy FileSetName="base_timer_1_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_color_convert_0/base_color_convert_0.xci">
-          <Proxy FileSetName="base_color_convert_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_1/base_intr_1.xci">
+          <Proxy FileSetName="base_intr_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_dma_0_1/base_axi_dma_0_1.xci">
-          <Proxy FileSetName="base_axi_dma_0_1"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_1/base_rst_clk_wiz_1_100M_1.xci">
+          <Proxy FileSetName="base_rst_clk_wiz_1_100M_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_ps7_0_fclk1_0/base_rst_ps7_0_fclk1_0.xci">
-          <Proxy FileSetName="base_rst_ps7_0_fclk1_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_2/base_lmb_bram_2.xci">
+          <Proxy FileSetName="base_lmb_bram_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_v_vid_in_axi4s_0_0/base_v_vid_in_axi4s_0_0.xci">
-          <Proxy FileSetName="base_v_vid_in_axi4s_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_0/base_iic_0.xci">
+          <Proxy FileSetName="base_iic_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_vtc_in_0/base_vtc_in_0.xci">
-          <Proxy FileSetName="base_vtc_in_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_2/base_mb_2.xci">
+          <Proxy FileSetName="base_mb_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_vtc_out_0/base_vtc_out_0.xci">
-          <Proxy FileSetName="base_vtc_out_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_1/base_lmb_bram_if_cntlr_1.xci">
+          <Proxy FileSetName="base_lmb_bram_if_cntlr_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dvi2rgb_0_0/base_dvi2rgb_0_0.xci">
-          <Proxy FileSetName="base_dvi2rgb_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_spi_0/base_spi_0.xci">
+          <Proxy FileSetName="base_spi_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_gpio_hdmiin_0/base_axi_gpio_hdmiin_0.xci">
-          <Proxy FileSetName="base_axi_gpio_hdmiin_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_2/base_rst_clk_wiz_1_100M_2.xci">
+          <Proxy FileSetName="base_rst_clk_wiz_1_100M_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_color_swap_0_0/base_color_swap_0_0.xci">
-          <Proxy FileSetName="base_color_swap_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_3/base_dff_en_reset_vector_0_3.xci">
+          <Proxy FileSetName="base_dff_en_reset_vector_0_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_collector_pmoda_rpi_0/base_collector_pmoda_rpi_0.xci">
-          <Proxy FileSetName="base_collector_pmoda_rpi_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intc_3/base_intc_3.xci">
+          <Proxy FileSetName="base_intc_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_collector_rpi_27_8_0/base_collector_rpi_27_8_0.xci">
-          <Proxy FileSetName="base_collector_rpi_27_8_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_lmb_bram_if_cntlr_2/base_lmb_bram_if_cntlr_2.xci">
+          <Proxy FileSetName="base_lmb_bram_if_cntlr_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_distributor_rpi_0/base_distributor_rpi_0.xci">
-          <Proxy FileSetName="base_distributor_rpi_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ilmb_v10_3/base_ilmb_v10_3.xci">
+          <Proxy FileSetName="base_ilmb_v10_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_switches_gpio_0/base_switches_gpio_0.xci">
-          <Proxy FileSetName="base_switches_gpio_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_1_0/base_iic_1_0.xci">
+          <Proxy FileSetName="base_iic_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rpi_gpio_0/base_rpi_gpio_0.xci">
+          <Proxy FileSetName="base_rpi_gpio_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_clk_wiz_1_100M_3/base_rst_clk_wiz_1_100M_3.xci">
+          <Proxy FileSetName="base_rst_clk_wiz_1_100M_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_intr_2/base_intr_2.xci">
+          <Proxy FileSetName="base_intr_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_4/base_xbar_4.xci">
+          <Proxy FileSetName="base_xbar_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_timer_0_1/base_timer_0_1.xci">
+          <Proxy FileSetName="base_timer_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_bram_ctrl_1/base_mb_bram_ctrl_1.xci">
+          <Proxy FileSetName="base_mb_bram_ctrl_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_iic_1/base_iic_1.xci">
+          <Proxy FileSetName="base_iic_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_5/base_xbar_5.xci">
+          <Proxy FileSetName="base_xbar_5"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dff_en_reset_vector_0_1/base_dff_en_reset_vector_0_1.xci">
+          <Proxy FileSetName="base_dff_en_reset_vector_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_io_switch_2/base_io_switch_2.xci">
+          <Proxy FileSetName="base_io_switch_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mb_bram_ctrl_3/base_mb_bram_ctrl_3.xci">
+          <Proxy FileSetName="base_mb_bram_ctrl_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rgbleds_gpio_0/base_rgbleds_gpio_0.xci">
           <Proxy FileSetName="base_rgbleds_gpio_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pmoda_rpi_o_sel_0/base_pmoda_rpi_o_sel_0.xci">
-          <Proxy FileSetName="base_pmoda_rpi_o_sel_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_system_interrupts_0/base_system_interrupts_0.xci">
-          <Proxy FileSetName="base_system_interrupts_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_color_convert_1/base_color_convert_1.xci">
-          <Proxy FileSetName="base_color_convert_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pixel_unpack_0/base_pixel_unpack_0.xci">
-          <Proxy FileSetName="base_pixel_unpack_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_v_axi4s_vid_out_0_0/base_v_axi4s_vid_out_0_0.xci">
-          <Proxy FileSetName="base_v_axi4s_vid_out_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_ps7_0_fclk0_0/base_rst_ps7_0_fclk0_0.xci">
-          <Proxy FileSetName="base_rst_ps7_0_fclk0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_uartlite_1/base_uartlite_1.xci">
+          <Proxy FileSetName="base_uartlite_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_vdma_0/base_axi_vdma_0.xci">
           <Proxy FileSetName="base_axi_vdma_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_hdmi_out_hpd_video_0/base_hdmi_out_hpd_video_0.xci">
-          <Proxy FileSetName="base_hdmi_out_hpd_video_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_dma_0_0/base_axi_dma_0_0.xci">
           <Proxy FileSetName="base_axi_dma_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axis_data_fifo_0_0/base_axis_data_fifo_0_0.xci">
-          <Proxy FileSetName="base_axis_data_fifo_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_v_vid_in_axi4s_0_0/base_v_vid_in_axi4s_0_0.xci">
+          <Proxy FileSetName="base_v_vid_in_axi4s_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_9/base_xbar_9.xci">
-          <Proxy FileSetName="base_xbar_9"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axis_register_slice_0_1/base_axis_register_slice_0_1.xci">
-          <Proxy FileSetName="base_axis_register_slice_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_distributor_pmoda_0/base_distributor_pmoda_0.xci">
-          <Proxy FileSetName="base_distributor_pmoda_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_trace_cntrl_64_0_0/base_trace_cntrl_64_0_0.xci">
-          <Proxy FileSetName="base_trace_cntrl_64_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pixel_pack_0/base_pixel_pack_0.xci">
-          <Proxy FileSetName="base_pixel_pack_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_10/base_xbar_10.xci">
-          <Proxy FileSetName="base_xbar_10"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_color_convert_1/base_color_convert_1.xci">
+          <Proxy FileSetName="base_color_convert_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axis_register_slice_0_0/base_axis_register_slice_0_0.xci">
           <Proxy FileSetName="base_axis_register_slice_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_bypass_0_0/base_bypass_0_0.xci">
-          <Proxy FileSetName="base_bypass_0_0"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_dynclk_0/base_axi_dynclk_0.xci">
+          <Proxy FileSetName="base_axi_dynclk_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_distributor_pmoda_0/base_distributor_pmoda_0.xci">
+          <Proxy FileSetName="base_distributor_pmoda_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_6/base_xbar_6.xci">
+          <Proxy FileSetName="base_xbar_6"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axis_data_fifo_0_0/base_axis_data_fifo_0_0.xci">
+          <Proxy FileSetName="base_axis_data_fifo_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_color_swap_0_0/base_color_swap_0_0.xci">
+          <Proxy FileSetName="base_color_swap_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_10/base_xbar_10.xci">
+          <Proxy FileSetName="base_xbar_10"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_switches_gpio_0/base_switches_gpio_0.xci">
+          <Proxy FileSetName="base_switches_gpio_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_dma_0_1/base_axi_dma_0_1.xci">
+          <Proxy FileSetName="base_axi_dma_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_color_convert_0/base_color_convert_0.xci">
+          <Proxy FileSetName="base_color_convert_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_dvi2rgb_0_0/base_dvi2rgb_0_0.xci">
+          <Proxy FileSetName="base_dvi2rgb_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_leds_gpio_0/base_leds_gpio_0.xci">
+          <Proxy FileSetName="base_leds_gpio_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_system_interrupts_0/base_system_interrupts_0.xci">
+          <Proxy FileSetName="base_system_interrupts_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_7/base_xbar_7.xci">
+          <Proxy FileSetName="base_xbar_7"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_ps7_0_fclk0_0/base_rst_ps7_0_fclk0_0.xci">
+          <Proxy FileSetName="base_rst_ps7_0_fclk0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_trace_cntrl_64_0_0/base_trace_cntrl_64_0_0.xci">
+          <Proxy FileSetName="base_trace_cntrl_64_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_mdm_1_0/base_mdm_1_0.xci">
+          <Proxy FileSetName="base_mdm_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pixel_unpack_0/base_pixel_unpack_0.xci">
+          <Proxy FileSetName="base_pixel_unpack_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pixel_pack_0/base_pixel_pack_0.xci">
+          <Proxy FileSetName="base_pixel_pack_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_vtc_out_0/base_vtc_out_0.xci">
+          <Proxy FileSetName="base_vtc_out_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_collector_pmoda_rpi_0/base_collector_pmoda_rpi_0.xci">
+          <Proxy FileSetName="base_collector_pmoda_rpi_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_distributor_rpi_0/base_distributor_rpi_0.xci">
+          <Proxy FileSetName="base_distributor_rpi_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axis_register_slice_0_1/base_axis_register_slice_0_1.xci">
+          <Proxy FileSetName="base_axis_register_slice_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_axi_gpio_hdmiin_0/base_axi_gpio_hdmiin_0.xci">
+          <Proxy FileSetName="base_axi_gpio_hdmiin_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_ps7_0_0/base_ps7_0_0.xci">
+          <Proxy FileSetName="base_ps7_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_hdmi_out_hpd_video_0/base_hdmi_out_hpd_video_0.xci">
+          <Proxy FileSetName="base_hdmi_out_hpd_video_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_v_axi4s_vid_out_0_0/base_v_axi4s_vid_out_0_0.xci">
+          <Proxy FileSetName="base_v_axi4s_vid_out_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pmoda_rpi_o_sel_0/base_pmoda_rpi_o_sel_0.xci">
+          <Proxy FileSetName="base_pmoda_rpi_o_sel_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_9/base_xbar_9.xci">
+          <Proxy FileSetName="base_xbar_9"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_rst_ps7_0_fclk1_0/base_rst_ps7_0_fclk1_0.xci">
+          <Proxy FileSetName="base_rst_ps7_0_fclk1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_collector_rpi_27_8_0/base_collector_rpi_27_8_0.xci">
+          <Proxy FileSetName="base_collector_rpi_27_8_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_vtc_in_0/base_vtc_in_0.xci">
+          <Proxy FileSetName="base_vtc_in_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_xbar_11/base_xbar_11.xci">
           <Proxy FileSetName="base_xbar_11"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_auto_pc_13/base_auto_pc_13.xci">
-          <Proxy FileSetName="base_auto_pc_13"/>
+        <CompFileExtendedInfo CompFileName="base.bd" FileRelPathName="ip/base_pynq_dsp_hls_0_0/base_pynq_dsp_hls_0_0.xci">
+          <Proxy FileSetName="base_pynq_dsp_hls_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/base/hdl/base_wrapper.v">
@@ -1176,21 +1173,15 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="base_bypass_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/base_bypass_0_0">
-      <Config>
-        <Option Name="TopModule" Val="base_bypass_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
     <FileSet Name="base_xbar_11" Type="BlockSrcs" RelSrcDir="$PSRCDIR/base_xbar_11">
       <Config>
         <Option Name="TopModule" Val="base_xbar_11"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="base_auto_pc_13" Type="BlockSrcs" RelSrcDir="$PSRCDIR/base_auto_pc_13">
+    <FileSet Name="base_pynq_dsp_hls_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/base_pynq_dsp_hls_0_0">
       <Config>
-        <Option Name="TopModule" Val="base_auto_pc_13"/>
+        <Option Name="TopModule" Val="base_pynq_dsp_hls_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -2267,15 +2258,6 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="base_bypass_0_0_synth_1" Type="Ft3:Synth" SrcSet="base_bypass_0_0" Part="xc7z020clg400-1" ConstrsSet="base_bypass_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/base_bypass_0_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
     <Run Id="base_xbar_11_synth_1" Type="Ft3:Synth" SrcSet="base_xbar_11" Part="xc7z020clg400-1" ConstrsSet="base_xbar_11" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/base_xbar_11_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
@@ -2285,9 +2267,11 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="base_auto_pc_13_synth_1" Type="Ft3:Synth" SrcSet="base_auto_pc_13" Part="xc7z020clg400-1" ConstrsSet="base_auto_pc_13" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/base_auto_pc_13_synth_1" IncludeInArchive="true">
+    <Run Id="base_pynq_dsp_hls_0_0_synth_1" Type="Ft3:Synth" SrcSet="base_pynq_dsp_hls_0_0" Part="xc7z020clg400-1" ConstrsSet="base_pynq_dsp_hls_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/base_pynq_dsp_hls_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -4167,22 +4151,6 @@
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="base_bypass_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="base_bypass_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="base_bypass_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
     <Run Id="base_xbar_11_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="base_xbar_11" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="base_xbar_11_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
@@ -4199,9 +4167,11 @@
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="base_auto_pc_13_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="base_auto_pc_13" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="base_auto_pc_13_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+    <Run Id="base_pynq_dsp_hls_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="base_pynq_dsp_hls_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="base_pynq_dsp_hls_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

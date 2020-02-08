@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
-// Date        : Thu Jan 30 02:00:28 2020
+// Date        : Thu Jan 30 02:00:27 2020
 // Host        : XPS15 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_pc_13/base_auto_pc_13_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top base_auto_pc_13 -prefix
+//               base_auto_pc_13_ base_auto_pc_13_stub.v
 // Design      : base_auto_pc_13
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1

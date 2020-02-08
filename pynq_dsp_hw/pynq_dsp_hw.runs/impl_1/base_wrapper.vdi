@@ -2,8 +2,8 @@
 # Vivado v2019.1.3 (64-bit)
 # SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
 # IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
-# Start of session at: Thu Jan 30 23:38:40 2020
-# Process ID: 10256
+# Start of session at: Sat Feb  8 20:48:10 2020
+# Process ID: 14312
 # Current directory: C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1
 # Command line: vivado.exe -log base_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source base_wrapper.tcl -notrace
 # Log file: C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper.vdi
@@ -14,18 +14,18 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/repos/pynq_dsp_hw/from_xilinx_pynq'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/user/repos/pynq_dsp_hw/from_kamiyaowl_pynq_dsp_hls'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
-add_files: Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 438.402 ; gain = 143.652
+add_files: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 440.352 ; gain = 145.859
 Command: link_design -top base_wrapper -part xc7z020clg400-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_audio_codec_ctrl_0_0/base_audio_codec_ctrl_0_0.dcp' for cell 'base_i/audio_codec_ctrl_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_btns_gpio_0/base_btns_gpio_0.dcp' for cell 'base_i/btns_gpio'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_bypass_0_0/base_bypass_0_0.dcp' for cell 'base_i/bypass_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_clk_wiz_10MHz_0/base_clk_wiz_10MHz_0.dcp' for cell 'base_i/clk_wiz_10MHz'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_leds_gpio_0/base_leds_gpio_0.dcp' for cell 'base_i/leds_gpio'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.dcp' for cell 'base_i/mdm_1'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_ps7_0_0/base_ps7_0_0.dcp' for cell 'base_i/ps7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_pynq_dsp_hls_0_0/base_pynq_dsp_hls_0_0.dcp' for cell 'base_i/pynq_dsp_hls_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_rgbleds_gpio_0/base_rgbleds_gpio_0.dcp' for cell 'base_i/rgbleds_gpio'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_rst_ps7_0_fclk0_0/base_rst_ps7_0_fclk0_0.dcp' for cell 'base_i/rst_ps7_0_fclk0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_rst_ps7_0_fclk1_0/base_rst_ps7_0_fclk1_0.dcp' for cell 'base_i/rst_ps7_0_fclk1'
@@ -59,24 +59,24 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_tier2_xbar_1_0/base_tier2_xbar_1_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/tier2_xbar_1'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_tier2_xbar_2_0/base_tier2_xbar_2_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/tier2_xbar_2'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_xbar_2/base_xbar_2.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/xbar'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_30/base_m00_regslice_30.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m00_couplers/m00_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_30/base_m01_regslice_30.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m01_couplers/m01_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_30/base_m02_regslice_30.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m02_couplers/m02_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_30/base_m03_regslice_30.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m03_couplers/m03_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_25/base_m04_regslice_25.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m04_couplers/m04_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_25/base_m05_regslice_25.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m05_couplers/m05_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_25/base_m06_regslice_25.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m06_couplers/m06_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_25/base_m07_regslice_25.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m07_couplers/m07_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_14/base_m08_regslice_14.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m08_couplers/m08_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_12/base_m09_regslice_12.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m09_couplers/m09_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_8/base_m10_regslice_8.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m10_couplers/m10_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_8/base_m11_regslice_8.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m11_couplers/m11_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_44/base_m00_regslice_44.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m00_couplers/m00_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_44/base_m01_regslice_44.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m01_couplers/m01_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_44/base_m02_regslice_44.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m02_couplers/m02_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_44/base_m03_regslice_44.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m03_couplers/m03_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_37/base_m04_regslice_37.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m04_couplers/m04_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_37/base_m05_regslice_37.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m05_couplers/m05_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_37/base_m06_regslice_37.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m06_couplers/m06_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_37/base_m07_regslice_37.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m07_couplers/m07_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_22/base_m08_regslice_22.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m08_couplers/m08_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_18/base_m09_regslice_18.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m09_couplers/m09_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_12/base_m10_regslice_12.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m10_couplers/m10_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_12/base_m11_regslice_12.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m11_couplers/m11_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m12_regslice_0/base_m12_regslice_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m12_couplers/m12_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m13_regslice_0/base_m13_regslice_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m13_couplers/m13_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m14_regslice_0/base_m14_regslice_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m14_couplers/m14_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m15_regslice_0/base_m15_regslice_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m15_couplers/m15_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m16_regslice_0/base_m16_regslice_0.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m16_couplers/m16_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_30/base_s00_regslice_30.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_44/base_s00_regslice_44.dcp' for cell 'base_i/iop_arduino/microblaze_0_axi_periph/s00_couplers/s00_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_spi_direct_0/base_spi_direct_0.dcp' for cell 'base_i/iop_arduino/spi_subsystem/spi_direct'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_spi_shared_0/base_spi_shared_0.dcp' for cell 'base_i/iop_arduino/spi_subsystem/spi_shared'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_timer_0_0/base_timer_0_0.dcp' for cell 'base_i/iop_arduino/timers_subsystem/timer_0'
@@ -101,15 +101,15 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_lmb_bram_1/base_lmb_bram_1.dcp' for cell 'base_i/iop_pmoda/lmb/lmb_bram'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_lmb_bram_if_cntlr_1/base_lmb_bram_if_cntlr_1.dcp' for cell 'base_i/iop_pmoda/lmb/lmb_bram_if_cntlr'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_xbar_3/base_xbar_3.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/xbar'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_31/base_m00_regslice_31.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m00_couplers/m00_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_31/base_m01_regslice_31.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m01_couplers/m01_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_31/base_m02_regslice_31.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m02_couplers/m02_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_31/base_m03_regslice_31.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m03_couplers/m03_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_26/base_m04_regslice_26.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m04_couplers/m04_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_26/base_m05_regslice_26.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m05_couplers/m05_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_26/base_m06_regslice_26.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m06_couplers/m06_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_26/base_m07_regslice_26.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m07_couplers/m07_regslice'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_31/base_s00_regslice_31.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_45/base_m00_regslice_45.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m00_couplers/m00_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_45/base_m01_regslice_45.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m01_couplers/m01_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_45/base_m02_regslice_45.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m02_couplers/m02_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_45/base_m03_regslice_45.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m03_couplers/m03_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_38/base_m04_regslice_38.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m04_couplers/m04_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_38/base_m05_regslice_38.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m05_couplers/m05_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_38/base_m06_regslice_38.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m06_couplers/m06_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_38/base_m07_regslice_38.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m07_couplers/m07_regslice'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_45/base_s00_regslice_45.dcp' for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/s00_couplers/s00_regslice'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_dff_en_reset_vector_0_2/base_dff_en_reset_vector_0_2.dcp' for cell 'base_i/iop_pmodb/dff_en_reset_vector_0'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_gpio_1/base_gpio_1.dcp' for cell 'base_i/iop_pmodb/gpio'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_iic_1/base_iic_1.dcp' for cell 'base_i/iop_pmodb/iic'
@@ -120,7 +120,7 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_bram_ctrl_2/base_mb_bram_ctrl_2.dcp' for cell 'base_i/iop_pmodb/mb_bram_ctrl'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_rst_clk_wiz_1_100M_2/base_rst_clk_wiz_1_100M_2.dcp' for cell 'base_i/iop_pmodb/rst_clk_wiz_1_100M'
 INFO: [Common 17-14] Message 'Project 1-454' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Netlist 29-17] Analyzing 3237 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 3319 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -136,7 +136,7 @@ Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_clk_wiz_10MHz_0/base_clk_wiz_10MHz_0.xdc] for cell 'base_i/clk_wiz_10MHz/inst'
 INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_clk_wiz_10MHz_0/base_clk_wiz_10MHz_0.xdc:57]
 INFO: [Timing 38-2] Deriving generated clocks [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_clk_wiz_10MHz_0/base_clk_wiz_10MHz_0.xdc:57]
-get_clocks: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2224.316 ; gain = 686.273
+get_clocks: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 2228.965 ; gain = 683.324
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_clk_wiz_10MHz_0/base_clk_wiz_10MHz_0.xdc] for cell 'base_i/clk_wiz_10MHz/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_arduino_gpio_0/base_arduino_gpio_0_board.xdc] for cell 'base_i/iop_arduino/arduino_gpio/U0'
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_arduino_gpio_0/base_arduino_gpio_0_board.xdc] for cell 'base_i/iop_arduino/arduino_gpio/U0'
@@ -408,32 +408,32 @@ Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/s
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_vtc_out_0/base_vtc_out_0_clocks.xdc] for cell 'base_i/video/hdmi_out/frontend/vtc_out/U0'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_us_0/base_auto_us_0_clocks.xdc] for cell 'base_i/axi_mem_intercon/s00_couplers/auto_us/inst'
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_us_0/base_auto_us_0_clocks.xdc] for cell 'base_i/axi_mem_intercon/s00_couplers/auto_us/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_30/base_s00_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_30/base_s00_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_30/base_m00_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_30/base_m00_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_30/base_m01_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_30/base_m01_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_30/base_m02_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_30/base_m02_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_30/base_m03_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_30/base_m03_regslice_30_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_25/base_m04_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_25/base_m04_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_25/base_m05_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_25/base_m05_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_25/base_m06_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_25/base_m06_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_25/base_m07_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_25/base_m07_regslice_25_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_14/base_m08_regslice_14_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_14/base_m08_regslice_14_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_12/base_m09_regslice_12_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_12/base_m09_regslice_12_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_8/base_m10_regslice_8_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_8/base_m10_regslice_8_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_8/base_m11_regslice_8_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_8/base_m11_regslice_8_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_44/base_s00_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_44/base_s00_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_44/base_m00_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_44/base_m00_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_44/base_m01_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_44/base_m01_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_44/base_m02_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_44/base_m02_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_44/base_m03_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_44/base_m03_regslice_44_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_37/base_m04_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_37/base_m04_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_37/base_m05_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_37/base_m05_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_37/base_m06_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_37/base_m06_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_37/base_m07_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_37/base_m07_regslice_37_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_22/base_m08_regslice_22_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_22/base_m08_regslice_22_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_18/base_m09_regslice_18_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_18/base_m09_regslice_18_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_12/base_m10_regslice_12_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_12/base_m10_regslice_12_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_12/base_m11_regslice_12_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_12/base_m11_regslice_12_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m12_regslice_0/base_m12_regslice_0_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m12_couplers/m12_regslice/inst'
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m12_regslice_0/base_m12_regslice_0_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m12_couplers/m12_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m13_regslice_0/base_m13_regslice_0_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m13_couplers/m13_regslice/inst'
@@ -444,140 +444,140 @@ Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/s
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m15_regslice_0/base_m15_regslice_0_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m15_couplers/m15_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m16_regslice_0/base_m16_regslice_0_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m16_couplers/m16_regslice/inst'
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m16_regslice_0/base_m16_regslice_0_clocks.xdc] for cell 'base_i/iop_arduino/microblaze_0_axi_periph/m16_couplers/m16_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_31/base_s00_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_31/base_s00_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_31/base_m00_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_31/base_m00_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_31/base_m01_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_31/base_m01_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_31/base_m02_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_31/base_m02_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_31/base_m03_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_31/base_m03_regslice_31_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_26/base_m04_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_26/base_m04_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_26/base_m05_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_26/base_m05_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_26/base_m06_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_26/base_m06_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_26/base_m07_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_26/base_m07_regslice_26_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_32/base_s00_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_32/base_s00_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_32/base_m00_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_32/base_m00_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_32/base_m01_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_32/base_m01_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_32/base_m02_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_32/base_m02_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_32/base_m03_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_32/base_m03_regslice_32_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_27/base_m04_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_27/base_m04_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_27/base_m05_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_27/base_m05_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_27/base_m06_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_27/base_m06_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_27/base_m07_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_27/base_m07_regslice_27_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_33/base_s00_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_33/base_s00_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_33/base_m00_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_33/base_m00_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_33/base_m01_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_33/base_m01_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_33/base_m02_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_33/base_m02_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_33/base_m03_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_33/base_m03_regslice_33_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_28/base_m04_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_28/base_m04_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_28/base_m05_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_28/base_m05_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_28/base_m06_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_28/base_m06_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_28/base_m07_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_28/base_m07_regslice_28_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_15/base_m08_regslice_15_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_15/base_m08_regslice_15_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_13/base_m09_regslice_13_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_13/base_m09_regslice_13_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_9/base_m10_regslice_9_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_9/base_m10_regslice_9_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_9/base_m11_regslice_9_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_9/base_m11_regslice_9_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_28/base_s00_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_28/base_s00_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_28/base_m00_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_28/base_m00_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_28/base_m01_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_28/base_m01_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m01_couplers/m01_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_28/base_m02_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_28/base_m02_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m02_couplers/m02_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_28/base_m03_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_28/base_m03_regslice_28_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_24/base_m04_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m04_couplers/m04_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_24/base_m04_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m04_couplers/m04_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_24/base_m05_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m05_couplers/m05_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_24/base_m05_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m05_couplers/m05_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_24/base_m06_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m06_couplers/m06_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_24/base_m06_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m06_couplers/m06_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_24/base_m07_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m07_couplers/m07_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_24/base_m07_regslice_24_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m07_couplers/m07_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_13/base_m08_regslice_13_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m08_couplers/m08_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_13/base_m08_regslice_13_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m08_couplers/m08_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_29/base_s00_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_29/base_s00_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_29/base_m00_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_29/base_m00_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_29/base_m01_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_29/base_m01_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m01_couplers/m01_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_29/base_m02_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_29/base_m02_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m02_couplers/m02_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_29/base_m03_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_29/base_m03_regslice_29_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_34/base_s00_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/s00_couplers/s00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_34/base_s00_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/s00_couplers/s00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_34/base_m00_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m00_couplers/m00_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_34/base_m00_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m00_couplers/m00_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_34/base_m01_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m01_couplers/m01_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_34/base_m01_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_45/base_s00_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_45/base_s00_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_45/base_m00_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_45/base_m00_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_45/base_m01_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_45/base_m01_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_45/base_m02_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_45/base_m02_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_45/base_m03_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_45/base_m03_regslice_45_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_38/base_m04_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_38/base_m04_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_38/base_m05_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_38/base_m05_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_38/base_m06_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_38/base_m06_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_38/base_m07_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_38/base_m07_regslice_38_clocks.xdc] for cell 'base_i/iop_pmoda/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_46/base_s00_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_46/base_s00_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_46/base_m00_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_46/base_m00_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_46/base_m01_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_46/base_m01_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_46/base_m02_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_46/base_m02_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_46/base_m03_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_46/base_m03_regslice_46_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_39/base_m04_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_39/base_m04_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_39/base_m05_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_39/base_m05_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_39/base_m06_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_39/base_m06_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_39/base_m07_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_39/base_m07_regslice_39_clocks.xdc] for cell 'base_i/iop_pmodb/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_47/base_s00_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_47/base_s00_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_47/base_m00_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_47/base_m00_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_47/base_m01_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_47/base_m01_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_47/base_m02_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_47/base_m02_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_47/base_m03_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_47/base_m03_regslice_47_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_40/base_m04_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_40/base_m04_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m04_couplers/m04_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_40/base_m05_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_40/base_m05_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m05_couplers/m05_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_40/base_m06_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_40/base_m06_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m06_couplers/m06_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_40/base_m07_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_40/base_m07_regslice_40_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m07_couplers/m07_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_23/base_m08_regslice_23_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_23/base_m08_regslice_23_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m08_couplers/m08_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_19/base_m09_regslice_19_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_19/base_m09_regslice_19_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m09_couplers/m09_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_13/base_m10_regslice_13_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m10_regslice_13/base_m10_regslice_13_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m10_couplers/m10_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_13/base_m11_regslice_13_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m11_regslice_13/base_m11_regslice_13_clocks.xdc] for cell 'base_i/iop_rpi/microblaze_0_axi_periph/m11_couplers/m11_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_42/base_s00_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_42/base_s00_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_42/base_m00_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_42/base_m00_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_42/base_m01_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_42/base_m01_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_42/base_m02_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_42/base_m02_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_42/base_m03_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_42/base_m03_regslice_42_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_36/base_m04_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m04_couplers/m04_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_36/base_m04_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m04_couplers/m04_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_36/base_m05_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m05_couplers/m05_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_36/base_m05_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m05_couplers/m05_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_36/base_m06_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m06_couplers/m06_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_36/base_m06_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m06_couplers/m06_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_36/base_m07_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m07_couplers/m07_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_36/base_m07_regslice_36_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m07_couplers/m07_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_21/base_m08_regslice_21_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m08_couplers/m08_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_21/base_m08_regslice_21_clocks.xdc] for cell 'base_i/ps7_0_axi_periph/m08_couplers/m08_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_43/base_s00_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_43/base_s00_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_43/base_m00_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_43/base_m00_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_43/base_m01_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_43/base_m01_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m01_couplers/m01_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_43/base_m02_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_43/base_m02_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_43/base_m03_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_43/base_m03_regslice_43_clocks.xdc] for cell 'base_i/ps7_0_axi_periph1/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_48/base_s00_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_s00_regslice_48/base_s00_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_48/base_m00_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m00_couplers/m00_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m00_regslice_48/base_m00_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m00_couplers/m00_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_48/base_m01_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m01_couplers/m01_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m01_regslice_48/base_m01_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m01_couplers/m01_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_0/base_auto_cc_0_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m01_couplers/auto_cc/inst'
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_0/base_auto_cc_0_clocks.xdc:7]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_0/base_auto_cc_0_clocks.xdc:10]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_0/base_auto_cc_0_clocks.xdc:13]
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_0/base_auto_cc_0_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m01_couplers/auto_cc/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_34/base_m02_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m02_couplers/m02_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_34/base_m02_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m02_couplers/m02_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_48/base_m02_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m02_couplers/m02_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m02_regslice_48/base_m02_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m02_couplers/m02_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_1/base_auto_cc_1_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m02_couplers/auto_cc/inst'
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_1/base_auto_cc_1_clocks.xdc:7]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_1/base_auto_cc_1_clocks.xdc:10]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_1/base_auto_cc_1_clocks.xdc:13]
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_1/base_auto_cc_1_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m02_couplers/auto_cc/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_34/base_m03_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m03_couplers/m03_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_34/base_m03_regslice_34_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m03_couplers/m03_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_29/base_m04_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m04_couplers/m04_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_29/base_m04_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m04_couplers/m04_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_29/base_m05_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m05_couplers/m05_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_29/base_m05_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m05_couplers/m05_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_29/base_m06_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m06_couplers/m06_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_29/base_m06_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m06_couplers/m06_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_48/base_m03_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m03_couplers/m03_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m03_regslice_48/base_m03_regslice_48_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m03_couplers/m03_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_41/base_m04_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m04_couplers/m04_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m04_regslice_41/base_m04_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m04_couplers/m04_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_41/base_m05_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m05_couplers/m05_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m05_regslice_41/base_m05_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m05_couplers/m05_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_41/base_m06_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m06_couplers/m06_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m06_regslice_41/base_m06_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m06_couplers/m06_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_2/base_auto_cc_2_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m06_couplers/auto_cc/inst'
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_2/base_auto_cc_2_clocks.xdc:7]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_2/base_auto_cc_2_clocks.xdc:10]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_2/base_auto_cc_2_clocks.xdc:13]
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_2/base_auto_cc_2_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m06_couplers/auto_cc/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_29/base_m07_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m07_couplers/m07_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_29/base_m07_regslice_29_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m07_couplers/m07_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_41/base_m07_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m07_couplers/m07_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m07_regslice_41/base_m07_regslice_41_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m07_couplers/m07_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_3/base_auto_cc_3_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m07_couplers/auto_cc/inst'
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_3/base_auto_cc_3_clocks.xdc:7]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_3/base_auto_cc_3_clocks.xdc:10]
 WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_3/base_auto_cc_3_clocks.xdc:13]
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_cc_3/base_auto_cc_3_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m07_couplers/auto_cc/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_16/base_m08_regslice_16_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m08_couplers/m08_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_16/base_m08_regslice_16_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m08_couplers/m08_regslice/inst'
-Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_14/base_m09_regslice_14_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m09_couplers/m09_regslice/inst'
-Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_14/base_m09_regslice_14_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m09_couplers/m09_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_24/base_m08_regslice_24_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m08_couplers/m08_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m08_regslice_24/base_m08_regslice_24_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m08_couplers/m08_regslice/inst'
+Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_20/base_m09_regslice_20_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m09_couplers/m09_regslice/inst'
+Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_m09_regslice_20/base_m09_regslice_20_clocks.xdc] for cell 'base_i/video/axi_interconnect_0/m09_couplers/m09_regslice/inst'
 Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_us_1/base_auto_us_1_clocks.xdc] for cell 'base_i/video/axi_mem_intercon/s01_couplers/auto_us/inst'
 Finished Parsing XDC File [c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_auto_us_1/base_auto_us_1_clocks.xdc] for cell 'base_i/video/axi_mem_intercon/s01_couplers/auto_us/inst'
 Sourcing Tcl File [C:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
@@ -1279,7 +1279,7 @@ Finished Sourcing Tcl File [C:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_fifo/tcl/xpm
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Generating merged BMM file for the design top 'base_wrapper'...
 INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_0/data/mb_bootloop_le.elf c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_1/data/mb_bootloop_le.elf c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_2/data/mb_bootloop_le.elf c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_3/data/mb_bootloop_le.elf 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 2262.891 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2254.348 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 492 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 66 instances
@@ -1289,7 +1289,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 164 Infos, 85 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:01:42 ; elapsed = 00:01:44 . Memory (MB): peak = 2262.891 ; gain = 1824.488
+link_design: Time (s): cpu = 00:01:33 ; elapsed = 00:01:33 . Memory (MB): peak = 2254.348 ; gain = 1813.996
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -1300,73 +1300,61 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2262.891 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2254.348 ; gain = 0.000
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 129d1d66d
+Ending Cache Timing Information Task | Checksum: 1b8e50beb
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2262.891 ; gain = 0.000
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2254.348 ; gain = 0.000
 
 Starting Logic Optimization Task
-
-Phase 1 Generate And Synthesize Debug Cores
-INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
-INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
-INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
-INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
-INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:3.0", from Vivado IP cache entry "d0eef14ff89a6560".
-get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2476.375 ; gain = 95.801
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.404 . Memory (MB): peak = 2479.270 ; gain = 2.539
-Phase 1 Generate And Synthesize Debug Cores | Checksum: 1c40e74d9
-
-Time (s): cpu = 00:00:25 ; elapsed = 00:03:53 . Memory (MB): peak = 2479.270 ; gain = 123.797
 CRITICAL WARNING: [Timing 38-249] Generated clock base_i/video/hdmi_out/frontend/rgb2dvi_0/U0/SerialClk has no logical paths from master clock axi_dynclk_0_PXL_CLK_O.
 Resolution: Review the path between the master clock and the generated clock with the schematic viewer and correct the -source option. If it is correct and the master clock does not have a timing path to the generated clock, define the generated clock as a primary clock by using create_clock.
 
-Phase 2 Retarget
+Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 13 inverter(s) to 46 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 2 Retarget | Checksum: 198fd00c5
+Phase 1 Retarget | Checksum: 1c3ebbb12
 
-Time (s): cpu = 00:00:39 ; elapsed = 00:04:04 . Memory (MB): peak = 2499.270 ; gain = 143.797
-INFO: [Opt 31-389] Phase Retarget created 1039 cells and removed 1783 cells
-INFO: [Opt 31-1021] In phase Retarget, 175 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2368.629 ; gain = 7.938
+INFO: [Opt 31-389] Phase Retarget created 1035 cells and removed 1774 cells
+INFO: [Opt 31-1021] In phase Retarget, 105 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 3 Constant propagation
+Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 8 inverter(s) to 31 load pin(s).
-Phase 3 Constant propagation | Checksum: 19bff22d8
+Phase 2 Constant propagation | Checksum: 124a34b4b
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:04:09 . Memory (MB): peak = 2499.270 ; gain = 143.797
-INFO: [Opt 31-389] Phase Constant propagation created 1117 cells and removed 4593 cells
-INFO: [Opt 31-1021] In phase Constant propagation, 830 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 2368.629 ; gain = 7.938
+INFO: [Opt 31-389] Phase Constant propagation created 1119 cells and removed 4584 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 767 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 4 Sweep
-Phase 4 Sweep | Checksum: fa77ec63
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 110cb2fce
 
-Time (s): cpu = 00:01:05 ; elapsed = 00:04:30 . Memory (MB): peak = 2499.270 ; gain = 143.797
-INFO: [Opt 31-389] Phase Sweep created 7 cells and removed 10603 cells
-INFO: [Opt 31-1021] In phase Sweep, 1434 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 2368.629 ; gain = 7.938
+INFO: [Opt 31-389] Phase Sweep created 7 cells and removed 10860 cells
+INFO: [Opt 31-1021] In phase Sweep, 221 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
-Phase 5 BUFG optimization
-Phase 5 BUFG optimization | Checksum: fa77ec63
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 110cb2fce
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:04:33 . Memory (MB): peak = 2499.270 ; gain = 143.797
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:29 . Memory (MB): peak = 2368.629 ; gain = 7.938
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
-Phase 6 Shift Register Optimization
+Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
-Phase 6 Shift Register Optimization | Checksum: fa77ec63
+Phase 5 Shift Register Optimization | Checksum: 110cb2fce
 
-Time (s): cpu = 00:01:10 ; elapsed = 00:04:35 . Memory (MB): peak = 2499.270 ; gain = 143.797
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 2368.629 ; gain = 7.938
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
-Phase 7 Post Processing Netlist
-Phase 7 Post Processing Netlist | Checksum: fa77ec63
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 110cb2fce
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:04:37 . Memory (MB): peak = 2499.270 ; gain = 143.797
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 2368.629 ; gain = 7.938
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
-INFO: [Opt 31-1021] In phase Post Processing Netlist, 87 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 30 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
 =========================
 
@@ -1374,22 +1362,22 @@ Opt_design Change Summary
 -------------------------------------------------------------------------------------------------------------------------
 |  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
 -------------------------------------------------------------------------------------------------------------------------
-|  Retarget                     |            1039  |            1783  |                                            175  |
-|  Constant propagation         |            1117  |            4593  |                                            830  |
-|  Sweep                        |               7  |           10603  |                                           1434  |
+|  Retarget                     |            1035  |            1774  |                                            105  |
+|  Constant propagation         |            1119  |            4584  |                                            767  |
+|  Sweep                        |               7  |           10860  |                                            221  |
 |  BUFG optimization            |               0  |               0  |                                              0  |
 |  Shift Register Optimization  |               0  |               0  |                                              0  |
-|  Post Processing Netlist      |               0  |               0  |                                             87  |
+|  Post Processing Netlist      |               0  |               0  |                                             30  |
 -------------------------------------------------------------------------------------------------------------------------
 
 
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.358 . Memory (MB): peak = 2499.270 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 10f1ba279
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.283 . Memory (MB): peak = 2368.629 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1572936d2
 
-Time (s): cpu = 00:01:15 ; elapsed = 00:04:41 . Memory (MB): peak = 2499.270 ; gain = 143.797
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:36 . Memory (MB): peak = 2368.629 ; gain = 7.938
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -1407,47 +1395,46 @@ Finished Running Vector-less Activity Propagation
 
 
 Starting PowerOpt Patch Enables Task
-INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 105 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 84 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
-Number of BRAM Ports augmented: 38 newly gated: 0 Total Ports: 210
-Ending PowerOpt Patch Enables Task | Checksum: 17f2c8c72
+Number of BRAM Ports augmented: 16 newly gated: 1 Total Ports: 168
+Ending PowerOpt Patch Enables Task | Checksum: 18b7a103f
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.992 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 17f2c8c72
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.791 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 18b7a103f
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:00:41 . Memory (MB): peak = 3537.926 ; gain = 1038.656
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:34 . Memory (MB): peak = 3275.988 ; gain = 907.359
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 17f2c8c72
+Ending Final Cleanup Task | Checksum: 18b7a103f
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.176 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Ending Netlist Obfuscation Task | Checksum: 1927149bc
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 150ce1354
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.176 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-202 Infos, 85 Warnings, 3 Critical Warnings and 0 Errors encountered.
+191 Infos, 85 Warnings, 3 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:02:45 ; elapsed = 00:05:35 . Memory (MB): peak = 3537.926 ; gain = 1275.035
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 3537.926 ; gain = 0.000
+opt_design: Time (s): cpu = 00:01:52 ; elapsed = 00:01:22 . Memory (MB): peak = 3275.988 ; gain = 1021.641
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.098 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 3537.926 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:36 ; elapsed = 00:00:21 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file base_wrapper_drc_opted.rpt -pb base_wrapper_drc_opted.pb -rpx base_wrapper_drc_opted.rpx
 Command: report_drc -file base_wrapper_drc_opted.rpt -pb base_wrapper_drc_opted.pb -rpx base_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper_drc_opted.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 3537.926 ; gain = 0.000
-INFO: [Chipscope 16-240] Debug cores have already been implemented
+report_drc: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 3275.988 ; gain = 0.000
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -1471,11 +1458,11 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14cebbb2e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: d9fab50d
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'base_i/iop_arduino/spi_subsystem/spi_shared/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO0_I_REG'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
@@ -1494,36 +1481,40 @@ CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'base_i/iop_rpi/s
 CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'base_i/iop_rpi/spi_subsystem/spi_1/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO1_I_REG'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
 CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'base_i/iop_rpi/spi_subsystem/spi_1/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 134667329
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: a69576b0
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
 CRITICAL WARNING: [Timing 38-249] Generated clock base_i/video/hdmi_out/frontend/rgb2dvi_0/U0/SerialClk has no logical paths from master clock axi_dynclk_0_PXL_CLK_O.
 Resolution: Review the path between the master clock and the generated clock with the schematic viewer and correct the -source option. If it is correct and the master clock does not have a timing path to the generated clock, define the generated clock as a primary clock by using create_clock.
-Phase 1.3 Build Placer Netlist Model | Checksum: 13b346de3
+Phase 1.3 Build Placer Netlist Model | Checksum: 1b7cbe32f
 
-Time (s): cpu = 00:01:04 ; elapsed = 00:00:49 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:39 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 13b346de3
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1b7cbe32f
 
-Time (s): cpu = 00:01:05 ; elapsed = 00:00:49 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 13b346de3
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:39 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1b7cbe32f
 
-Time (s): cpu = 00:01:05 ; elapsed = 00:00:50 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:40 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: 15cfd05c4
+Phase 2.1 Floorplanning | Checksum: e07b0810
 
-Time (s): cpu = 00:01:14 ; elapsed = 00:00:55 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:44 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 2.2 Global Placement Core
 
 Phase 2.2.1 Physical Synthesis In Placer
 INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-117] Net base_i/iop_pmodb/lmb/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/ENA_I could not be optimized because driver base_i/iop_pmodb/lmb/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram_i_1 could not be replicated
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
@@ -1534,7 +1525,7 @@ INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found i
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for HD net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -1544,73 +1535,74 @@ Summary of Physical Synthesis Optimizations
 |  Optimization                  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 ----------------------------------------------------------------------------------------------------------------------------------------
 |  Very High Fanout              |            0  |              0  |                     0  |           0  |           1  |  00:00:01  |
+|  Critical Cell                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  DSP Register                  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Shift Register                |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  BRAM Register                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  HD Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total                         |            0  |              0  |                     0  |           0  |           5  |  00:00:01  |
+|  Total                         |            0  |              0  |                     0  |           0  |           6  |  00:00:01  |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2.1 Physical Synthesis In Placer | Checksum: 8e19ab78
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 1e8512c67
 
-Time (s): cpu = 00:02:52 ; elapsed = 00:01:56 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 2.2 Global Placement Core | Checksum: 93a9c108
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:32 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 2.2 Global Placement Core | Checksum: 231fccbee
 
-Time (s): cpu = 00:03:04 ; elapsed = 00:02:04 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 2 Global Placement | Checksum: 93a9c108
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:39 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 231fccbee
 
-Time (s): cpu = 00:03:04 ; elapsed = 00:02:04 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:39 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 88a6fae3
+Phase 3.1 Commit Multi Column Macros | Checksum: 1c28bef72
 
-Time (s): cpu = 00:03:13 ; elapsed = 00:02:10 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:02:35 ; elapsed = 00:01:44 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 15a91f9cf
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1d9de489c
 
-Time (s): cpu = 00:03:28 ; elapsed = 00:02:20 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:02:48 ; elapsed = 00:01:52 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 9605b26e
+Phase 3.3 Area Swap Optimization | Checksum: 20ecf5af7
 
-Time (s): cpu = 00:03:29 ; elapsed = 00:02:21 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:02:49 ; elapsed = 00:01:53 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 15d15ef53
+Phase 3.4 Pipeline Register Optimization | Checksum: 220263da2
 
-Time (s): cpu = 00:03:29 ; elapsed = 00:02:21 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:02:49 ; elapsed = 00:01:53 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.5 Fast Optimization
-Phase 3.5 Fast Optimization | Checksum: f992ab23
+Phase 3.5 Fast Optimization | Checksum: 149bf3da2
 
-Time (s): cpu = 00:03:43 ; elapsed = 00:02:29 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:03:00 ; elapsed = 00:02:00 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1c06dce0d
 
-Phase 3.6.1 Place Remaining
-Phase 3.6.1 Place Remaining | Checksum: 1a9a18707
-
-Time (s): cpu = 00:04:47 ; elapsed = 00:03:38 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 3.6 Small Shape Detail Placement | Checksum: 1a9a18707
-
-Time (s): cpu = 00:04:47 ; elapsed = 00:03:39 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:03:51 ; elapsed = 00:02:55 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 1b8231ec4
+Phase 3.7 Re-assign LUT pins | Checksum: 2361fdd16
 
-Time (s): cpu = 00:04:54 ; elapsed = 00:03:46 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:03:56 ; elapsed = 00:03:02 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 7cbb4634
+Phase 3.8 Pipeline Register Optimization | Checksum: 13cecad7e
 
-Time (s): cpu = 00:04:55 ; elapsed = 00:03:48 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 7cbb4634
+Time (s): cpu = 00:03:57 ; elapsed = 00:03:03 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
-Time (s): cpu = 00:04:56 ; elapsed = 00:03:48 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1942fc0f8
+
+Time (s): cpu = 00:04:14 ; elapsed = 00:03:13 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1942fc0f8
+
+Time (s): cpu = 00:04:15 ; elapsed = 00:03:13 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -1620,61 +1612,61 @@ CRITICAL WARNING: [Timing 38-249] Generated clock base_i/video/hdmi_out/frontend
 Resolution: Review the path between the master clock and the generated clock with the schematic viewer and correct the -source option. If it is correct and the master clock does not have a timing path to the generated clock, define the generated clock as a primary clock by using create_clock.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 1115034bf
+Post Placement Optimization Initialization | Checksum: 1dbbc8fd9
 
 Phase 4.1.1.1 BUFG Insertion
 INFO: [Place 46-33] Processed net base_i/video/hdmi_out/frontend/vtc_out/U0/U_VIDEO_CTRL/GEN_HAS_IRQ.irq_i_1_n_0, BUFG insertion was skipped due to placement/routing conflicts.
 INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
-Phase 4.1.1.1 BUFG Insertion | Checksum: 1115034bf
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1dbbc8fd9
 
-Time (s): cpu = 00:05:28 ; elapsed = 00:04:10 . Memory (MB): peak = 3537.926 ; gain = 0.000
-INFO: [Place 30-746] Post Placement Timing Summary WNS=0.517. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 1c270be95
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:31 . Memory (MB): peak = 3275.988 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.526. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 15d9d4e83
 
-Time (s): cpu = 00:05:40 ; elapsed = 00:04:22 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 1c270be95
+Time (s): cpu = 00:04:45 ; elapsed = 00:03:35 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 15d9d4e83
 
-Time (s): cpu = 00:05:41 ; elapsed = 00:04:23 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:46 ; elapsed = 00:03:36 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 1c270be95
+Phase 4.2 Post Placement Cleanup | Checksum: 15d9d4e83
 
-Time (s): cpu = 00:05:42 ; elapsed = 00:04:23 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:47 ; elapsed = 00:03:36 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 1c270be95
+Phase 4.3 Placer Reporting | Checksum: 15d9d4e83
 
-Time (s): cpu = 00:05:42 ; elapsed = 00:04:24 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:47 ; elapsed = 00:03:37 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 4.4 Final Placement Cleanup | Checksum: 1dd9967a4
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 11df2dd89
 
-Time (s): cpu = 00:05:43 ; elapsed = 00:04:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1dd9967a4
+Time (s): cpu = 00:04:48 ; elapsed = 00:03:38 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 11df2dd89
 
-Time (s): cpu = 00:05:44 ; elapsed = 00:04:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Ending Placer Task | Checksum: 17d032ac5
+Time (s): cpu = 00:04:48 ; elapsed = 00:03:38 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Ending Placer Task | Checksum: 7854a218
 
-Time (s): cpu = 00:05:44 ; elapsed = 00:04:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:48 ; elapsed = 00:03:38 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-234 Infos, 85 Warnings, 21 Critical Warnings and 0 Errors encountered.
+226 Infos, 85 Warnings, 21 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:05:53 ; elapsed = 00:04:32 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 3537.926 ; gain = 0.000
+place_design: Time (s): cpu = 00:04:56 ; elapsed = 00:03:44 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.072 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:26 ; elapsed = 00:00:08 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:23 ; elapsed = 00:00:07 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:47 ; elapsed = 00:00:28 . Memory (MB): peak = 3537.926 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:45 ; elapsed = 00:00:23 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_io -file base_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 3537.926 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file base_wrapper_utilization_placed.rpt -pb base_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file base_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3537.926 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3275.988 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
@@ -1701,148 +1693,163 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: f0cf1d49 ConstDB: 0 ShapeSum: 8c340d7c RouteDB: 0
+Checksum: PlaceDB: 2023c5b ConstDB: 0 ShapeSum: 765265bd RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 18e8fad91
+Phase 1 Build RT Design | Checksum: 1764c0150
 
-Time (s): cpu = 00:00:52 ; elapsed = 00:00:28 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Post Restoration Checksum: NetGraph: 9396b63e NumContArr: faf8f753 Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:27 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Post Restoration Checksum: NetGraph: cb7dafd9 NumContArr: aace5177 Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 18e8fad91
+Phase 2.1 Create Timer | Checksum: 1764c0150
 
-Time (s): cpu = 00:00:53 ; elapsed = 00:00:29 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:28 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 18e8fad91
+Phase 2.2 Fix Topology Constraints | Checksum: 1764c0150
 
-Time (s): cpu = 00:00:54 ; elapsed = 00:00:30 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:29 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 18e8fad91
+Phase 2.3 Pre Route Cleanup | Checksum: 1764c0150
 
-Time (s): cpu = 00:00:54 ; elapsed = 00:00:30 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:29 . Memory (MB): peak = 3275.988 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 12be4f4fd
+Phase 2.4 Update Timing | Checksum: 2324a6ba7
 
-Time (s): cpu = 00:01:35 ; elapsed = 00:00:56 . Memory (MB): peak = 3537.926 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.509  | TNS=0.000  | WHS=-0.357 | THS=-1096.924|
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:50 . Memory (MB): peak = 3275.988 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.531  | TNS=0.000  | WHS=-0.357 | THS=-946.302|
 
 
 Phase 2.5 Update Timing for Bus Skew
 
 Phase 2.5.1 Update Timing
-Phase 2.5.1 Update Timing | Checksum: 1b4837f53
+Phase 2.5.1 Update Timing | Checksum: 22a0e0855
 
-Time (s): cpu = 00:02:07 ; elapsed = 00:01:15 . Memory (MB): peak = 3537.926 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.509  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:06 . Memory (MB): peak = 3275.988 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.531  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 2.5 Update Timing for Bus Skew | Checksum: 132624c91
+Phase 2.5 Update Timing for Bus Skew | Checksum: 1dedbefd8
 
-Time (s): cpu = 00:02:08 ; elapsed = 00:01:16 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 2 Router Initialization | Checksum: 13c2f6e2e
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:07 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 281cf34b0
 
-Time (s): cpu = 00:02:08 ; elapsed = 00:01:16 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:07 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.00238169 %
+  Global Vertical Routing Utilization    = 0.000103552 %
   Global Horizontal Routing Utilization  = 0.000169033 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
-  Number of Failed Nets               = 87406
+  Number of Failed Nets               = 81718
     (Failed Nets is the sum of unrouted and partially routed nets)
-  Number of Unrouted Nets             = 87405
-  Number of Partially Routed Nets     = 1
+  Number of Unrouted Nets             = 81718
+  Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 1670977a0
+Phase 3 Initial Routing | Checksum: 192b54a09
 
-Time (s): cpu = 00:02:42 ; elapsed = 00:01:35 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:02:23 ; elapsed = 00:01:26 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 12820
- Number of Nodes with overlaps = 2034
- Number of Nodes with overlaps = 577
- Number of Nodes with overlaps = 177
- Number of Nodes with overlaps = 78
- Number of Nodes with overlaps = 27
- Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 11535
+ Number of Nodes with overlaps = 1575
+ Number of Nodes with overlaps = 381
+ Number of Nodes with overlaps = 133
+ Number of Nodes with overlaps = 47
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 8
  Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.123  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.126 | TNS=-0.126 | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 140b7d293
+Phase 4.1 Global Iteration 0 | Checksum: 16ec03b25
 
-Time (s): cpu = 00:05:08 ; elapsed = 00:03:16 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:06 ; elapsed = 00:02:35 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 7
- Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.123  | TNS=0.000  | WHS=N/A    | THS=N/A    |
-
-Phase 4.2 Global Iteration 1 | Checksum: a2ef0d0b
-
-Time (s): cpu = 00:05:12 ; elapsed = 00:03:20 . Memory (MB): peak = 3537.926 ; gain = 0.000
-
-Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 226
+ Number of Nodes with overlaps = 69
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
  Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.123  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.090 | TNS=-0.090 | WHS=N/A    | THS=N/A    |
 
-Phase 4.3 Global Iteration 2 | Checksum: 157368de7
+Phase 4.2 Global Iteration 1 | Checksum: 1c3dbbdef
 
-Time (s): cpu = 00:05:16 ; elapsed = 00:03:24 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 157368de7
+Time (s): cpu = 00:04:26 ; elapsed = 00:02:54 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
-Time (s): cpu = 00:05:16 ; elapsed = 00:03:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 133
+ Number of Nodes with overlaps = 29
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.083 | TNS=-0.083 | WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 1891f4b9d
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:03:02 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1891f4b9d
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:03:02 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 157368de7
 
-Time (s): cpu = 00:05:17 ; elapsed = 00:03:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 189021bae
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:06 . Memory (MB): peak = 3275.988 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.070  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 16a6eb632
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:06 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 157368de7
+Phase 5.2 Clock Skew Optimization | Checksum: 16a6eb632
 
-Time (s): cpu = 00:05:17 ; elapsed = 00:03:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 157368de7
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:06 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 16a6eb632
 
-Time (s): cpu = 00:05:17 ; elapsed = 00:03:26 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:42 ; elapsed = 00:03:06 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 1933bdb1d
+Phase 6.1.1 Update Timing | Checksum: 1e9d41f49
 
-Time (s): cpu = 00:05:26 ; elapsed = 00:03:31 . Memory (MB): peak = 3537.926 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.238  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+Time (s): cpu = 00:04:49 ; elapsed = 00:03:11 . Memory (MB): peak = 3275.988 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.070  | TNS=0.000  | WHS=0.014  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 16b47bf87
+Phase 6.1 Hold Fix Iter | Checksum: 195a7a302
 
-Time (s): cpu = 00:05:27 ; elapsed = 00:03:32 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 16b47bf87
+Time (s): cpu = 00:04:49 ; elapsed = 00:03:11 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 195a7a302
 
-Time (s): cpu = 00:05:27 ; elapsed = 00:03:32 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:49 ; elapsed = 00:03:11 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 24.2879 %
-  Global Horizontal Routing Utilization  = 28.9808 %
+  Global Vertical Routing Utilization    = 22.2186 %
+  Global Horizontal Routing Utilization  = 25.6709 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -1852,54 +1859,54 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 16b47bf87
+Phase 7 Route finalize | Checksum: 195a7a302
 
-Time (s): cpu = 00:05:27 ; elapsed = 00:03:32 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:50 ; elapsed = 00:03:12 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 16b47bf87
+Phase 8 Verifying routed nets | Checksum: 195a7a302
 
-Time (s): cpu = 00:05:28 ; elapsed = 00:03:33 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:50 ; elapsed = 00:03:12 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 15cf7441d
+Phase 9 Depositing Routes | Checksum: 19c8ccafd
 
-Time (s): cpu = 00:05:38 ; elapsed = 00:03:44 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:59 ; elapsed = 00:03:22 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=0.238  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.070  | TNS=0.000  | WHS=0.014  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 15cf7441d
+Phase 10 Post Router Timing | Checksum: 19c8ccafd
 
-Time (s): cpu = 00:05:38 ; elapsed = 00:03:45 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:59 ; elapsed = 00:03:22 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:05:38 ; elapsed = 00:03:45 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Time (s): cpu = 00:04:59 ; elapsed = 00:03:22 . Memory (MB): peak = 3275.988 ; gain = 0.000
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-254 Infos, 100 Warnings, 21 Critical Warnings and 0 Errors encountered.
+247 Infos, 100 Warnings, 21 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:05:53 ; elapsed = 00:03:54 . Memory (MB): peak = 3537.926 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 3537.926 ; gain = 0.000
+route_design: Time (s): cpu = 00:05:10 ; elapsed = 00:03:29 . Memory (MB): peak = 3275.988 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:31 ; elapsed = 00:00:10 . Memory (MB): peak = 3537.926 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:26 ; elapsed = 00:00:08 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:48 ; elapsed = 00:00:28 . Memory (MB): peak = 3537.926 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:49 ; elapsed = 00:00:25 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file base_wrapper_drc_routed.rpt -pb base_wrapper_drc_routed.pb -rpx base_wrapper_drc_routed.rpx
 Command: report_drc -file base_wrapper_drc_routed.rpt -pb base_wrapper_drc_routed.pb -rpx base_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper_drc_routed.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:40 ; elapsed = 00:00:25 . Memory (MB): peak = 3537.926 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:33 ; elapsed = 00:00:20 . Memory (MB): peak = 3275.988 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_methodology -file base_wrapper_methodology_drc_routed.rpt -pb base_wrapper_methodology_drc_routed.pb -rpx base_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file base_wrapper_methodology_drc_routed.rpt -pb base_wrapper_methodology_drc_routed.pb -rpx base_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -1908,7 +1915,7 @@ Resolution: Review the path between the master clock and the generated clock wit
 INFO: [DRC 23-133] Running Methodology with 2 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:01:05 ; elapsed = 00:00:37 . Memory (MB): peak = 3797.578 ; gain = 259.652
+report_methodology: Time (s): cpu = 00:00:54 ; elapsed = 00:00:31 . Memory (MB): peak = 3585.133 ; gain = 309.145
 INFO: [runtcl-4] Executing : report_power -file base_wrapper_power_routed.rpt -pb base_wrapper_power_summary_routed.pb -rpx base_wrapper_power_routed.rpx
 Command: report_power -file base_wrapper_power_routed.rpt -pb base_wrapper_power_summary_routed.pb -rpx base_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -1921,9 +1928,9 @@ Resolution: Review the path between the master clock and the generated clock wit
 Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
-266 Infos, 101 Warnings, 24 Critical Warnings and 0 Errors encountered.
+259 Infos, 101 Warnings, 24 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:01:04 ; elapsed = 00:00:39 . Memory (MB): peak = 3797.578 ; gain = 0.000
+report_power: Time (s): cpu = 00:00:53 ; elapsed = 00:00:32 . Memory (MB): peak = 3585.133 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_route_status -file base_wrapper_route_status.rpt -pb base_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file base_wrapper_timing_summary_routed.rpt -pb base_wrapper_timing_summary_routed.pb -rpx base_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
@@ -1934,7 +1941,6 @@ WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Pl
 INFO: [runtcl-4] Executing : report_incremental_reuse -file base_wrapper_incremental_reuse_routed.rpt
 INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
 INFO: [runtcl-4] Executing : report_clock_utilization -file base_wrapper_clock_utilization_routed.rpt
-report_clock_utilization: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3797.578 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file base_wrapper_bus_skew_routed.rpt -pb base_wrapper_bus_skew_routed.pb -rpx base_wrapper_bus_skew_routed.rpx
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -1972,6 +1978,8 @@ INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
 WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer arduino_direct_spi_sck_iobuf/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
 WARNING: [DRC BUFC-1] Input Buffer Connections: Input buffer arduino_direct_spi_ss_iobuf_0/IBUF has no loads. It is recommended to have an input buffer drive an internal load.
+WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
 WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_in/color_convert/inst/ret_V_11_reg_1016_reg input base_i/video/hdmi_in/color_convert/inst/ret_V_11_reg_1016_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
 WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_in/color_convert/inst/ret_V_12_reg_1031_reg input base_i/video/hdmi_in/color_convert/inst/ret_V_12_reg_1031_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
 WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_in/color_convert/inst/ret_V_6_reg_1006_reg input base_i/video/hdmi_in/color_convert/inst/ret_V_6_reg_1006_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
@@ -1984,6 +1992,11 @@ WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_out/color_convert/
 WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_out/color_convert/inst/ret_V_7_reg_1021_reg input base_i/video/hdmi_out/color_convert/inst/ret_V_7_reg_1021_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
 WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_out/color_convert/inst/ret_V_9_reg_1026_reg input base_i/video/hdmi_out/color_convert/inst/ret_V_9_reg_1026_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
 WARNING: [DRC DPIP-1] Input pipelining: DSP base_i/video/hdmi_out/color_convert/inst/ret_V_reg_1011_reg input base_i/video/hdmi_out/color_convert/inst/ret_V_reg_1011_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/CARRYOUT[3:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP multiplier stage base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_in/color_convert/inst/r_V_12_reg_986_reg multiplier stage base_i/video/hdmi_in/color_convert/inst/r_V_12_reg_986_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_in/color_convert/inst/r_V_16_reg_996_reg multiplier stage base_i/video/hdmi_in/color_convert/inst/r_V_16_reg_996_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_in/color_convert/inst/r_V_19_reg_1001_reg multiplier stage base_i/video/hdmi_in/color_convert/inst/r_V_19_reg_1001_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
@@ -1996,13 +2009,16 @@ WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_out/color_co
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_out/color_convert/inst/ret_V_11_reg_1016_reg multiplier stage base_i/video/hdmi_out/color_convert/inst/ret_V_11_reg_1016_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_out/color_convert/inst/ret_V_6_reg_1006_reg multiplier stage base_i/video/hdmi_out/color_convert/inst/ret_V_6_reg_1006_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
 WARNING: [DRC DPOP-2] MREG Output pipelining: DSP base_i/video/hdmi_out/color_convert/inst/ret_V_reg_1011_reg multiplier stage base_i/video/hdmi_out/color_convert/inst/ret_V_reg_1011_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
-WARNING: [DRC IOSR-1] IOB set reset sharing: IO sdata_i connects to flops which have these base_i/audio_codec_ctrl_0/U0/USER_LOGIC_I/Inst_iis_deser/ldata_reg, and u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
-WARNING: [DRC RTSTAT-10] No routable loads: 55 net(s) have no routable loads. The problem bus(es) and/or net(s) are base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow... and (the first 15 of 53 listed).
+WARNING: [DRC RTSTAT-10] No routable loads: 30 net(s) have no routable loads. The problem bus(es) and/or net(s) are base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, base_i/video/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, base_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i... and (the first 15 of 30 listed).
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-5] enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: base_i/pynq_dsp_hls_0/inst/pynq_dsp_hls_fmulbkb_U1/pynq_dsp_hls_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/i_non_prim.R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
 INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (base_i/trace_analyzer_pi/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (base_i/trace_analyzer_pi/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (base_i/trace_analyzer_pmodb/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (base_i/video/axi_vdma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
-INFO: [Vivado 12-3199] DRC finished with 0 Errors, 28 Warnings, 4 Advisories
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 34 Warnings, 8 Advisories
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
 INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
 Loading data files...
@@ -2014,9 +2030,9 @@ Creating bitstream...
 Writing bitstream ./base_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] 'C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Thu Jan 30 23:59:53 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-186] 'C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Sat Feb  8 21:02:45 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-314 Infos, 130 Warnings, 26 Critical Warnings and 0 Errors encountered.
+311 Infos, 136 Warnings, 26 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:01:27 ; elapsed = 00:01:04 . Memory (MB): peak = 4072.590 ; gain = 275.012
-INFO: [Common 17-206] Exiting Vivado at Thu Jan 30 23:59:54 2020...
+write_bitstream: Time (s): cpu = 00:01:14 ; elapsed = 00:00:55 . Memory (MB): peak = 3888.344 ; gain = 303.211
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  8 21:02:46 2020...

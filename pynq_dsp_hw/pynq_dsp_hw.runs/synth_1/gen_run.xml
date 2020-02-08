@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1580395061">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1581162375">
   <File Type="PA-TCL" Name="base_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="base_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="base_wrapper_reports.tcl"/>
@@ -181,7 +181,6 @@
   <BlockFileSet Type="BlockSrcs" Name="base_pixel_unpack_0"/>
   <BlockFileSet Type="BlockSrcs" Name="base_axi_dynclk_0"/>
   <BlockFileSet Type="BlockSrcs" Name="base_distributor_pmoda_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="base_bypass_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="base_xbar_11"/>
-  <BlockFileSet Type="BlockSrcs" Name="base_auto_pc_13"/>
+  <BlockFileSet Type="BlockSrcs" Name="base_pynq_dsp_hls_0_0"/>
 </GenRun>

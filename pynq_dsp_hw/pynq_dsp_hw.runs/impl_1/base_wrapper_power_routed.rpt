@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
-| Date             : Sat Feb  8 21:01:37 2020
+| Date             : Sun Feb  9 15:09:29 2020
 | Host             : XPS15 running 64-bit major release  (build 9200)
 | Command          : report_power -file base_wrapper_power_routed.rpt -pb base_wrapper_power_summary_routed.pb -rpx base_wrapper_power_routed.rpx
 | Design           : base_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.540        |
+| Total On-Chip Power (W)  | 2.564        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.360        |
-| Device Static (W)        | 0.180        |
+| Dynamic (W)              | 2.379        |
+| Device Static (W)        | 0.185        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 55.7         |
-| Junction Temperature (C) | 54.3         |
+| Max Ambient (C)          | 55.4         |
+| Junction Temperature (C) | 54.6         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,24 +52,24 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.169 |       19 |       --- |             --- |
-| Slice Logic              |     0.099 |   112635 |       --- |             --- |
-|   LUT as Logic           |     0.084 |    38249 |     53200 |           71.90 |
-|   Register               |     0.008 |    55216 |    106400 |           51.89 |
-|   CARRY4                 |     0.004 |     1538 |     13300 |           11.56 |
-|   LUT as Distributed RAM |     0.003 |      420 |     17400 |            2.41 |
-|   F7/F8 Muxes            |    <0.001 |      992 |     53200 |            1.86 |
-|   LUT as Shift Register  |    <0.001 |     1353 |     17400 |            7.78 |
-|   Others                 |    <0.001 |     5689 |       --- |             --- |
-| Signals                  |     0.159 |    81582 |       --- |             --- |
-| Block RAM                |     0.108 |       81 |       140 |           57.86 |
+| Clocks                   |     0.170 |       20 |       --- |             --- |
+| Slice Logic              |     0.100 |   118687 |       --- |             --- |
+|   LUT as Logic           |     0.085 |    39669 |     53200 |           74.57 |
+|   Register               |     0.008 |    58450 |    106400 |           54.93 |
+|   CARRY4                 |     0.004 |     1616 |     13300 |           12.15 |
+|   LUT as Distributed RAM |     0.003 |      444 |     17400 |            2.55 |
+|   F7/F8 Muxes            |    <0.001 |     1011 |     53200 |            1.90 |
+|   LUT as Shift Register  |    <0.001 |     1668 |     17400 |            9.59 |
+|   Others                 |    <0.001 |     6127 |       --- |             --- |
+| Signals                  |     0.159 |    86003 |       --- |             --- |
+| Block RAM                |     0.124 |    106.5 |       140 |           76.07 |
 | MMCM                     |     0.300 |        3 |         4 |           75.00 |
 | DSPs                     |     0.019 |       21 |       220 |            9.55 |
 | I/O                      |     0.231 |      119 |       125 |           95.20 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
 | PS7                      |     1.272 |        1 |       --- |             --- |
-| Static Power             |     0.180 |          |           |                 |
-| Total                    |     2.540 |          |           |                 |
+| Static Power             |     0.185 |          |           |                 |
+| Total                    |     2.563 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -79,7 +79,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.581 |       0.555 |      0.026 |
+| Vccint    |       1.000 |     0.600 |       0.573 |      0.028 |
 | Vccaux    |       1.800 |     0.203 |       0.184 |      0.019 |
 | Vcco33    |       3.300 |     0.059 |       0.058 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -88,7 +88,7 @@ Table of Contents
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.017 |       0.009 |      0.009 |
+| Vccbram   |       1.000 |     0.021 |       0.010 |      0.011 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -139,27 +139,28 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+--------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+
-| Clock                                                  | Domain                                                                               | Constraint (ns) |
-+--------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+
-| CLKFBIN                                                | base_i/video/hdmi_in/frontend/dvi2rgb_0/U0/TMDS_ClockingX/CLKFBIN                    |             8.3 |
-| CLK_OUT_5x_hdmi_clk                                    | base_i/video/hdmi_in/frontend/dvi2rgb_0/U0/TMDS_ClockingX/CLK_OUT_5x_hdmi_clk        |             1.7 |
-| I                                                      | base_i/video/hdmi_out/frontend/axi_dynclk/U0/Inst_mmcme2_drp/I                       |             2.0 |
-| I                                                      | base_i/video/hdmi_out/frontend/axi_dynclk/U0/PXL_CLK_5X_O                            |             2.0 |
-| axi_dynclk_0_PXL_CLK_O                                 | base_i/video/hdmi_out/frontend/axi_dynclk/U0/PXL_CLK_O                               |            10.0 |
-| base_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK   | base_i/mdm_1/U0/Use_E2.BSCAN_I/DRCK                                                  |            33.3 |
-| base_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE | base_i/mdm_1/U0/Use_E2.BSCAN_I/Ext_JTAG_UPDATE                                       |            33.3 |
-| clk_fpga_0                                             | base_i/ps7_0/inst/FCLK_CLK0                                                          |            10.0 |
-| clk_fpga_0                                             | base_i/ps7_0/inst/FCLK_CLK_unbuffered[0]                                             |            10.0 |
-| clk_fpga_1                                             | base_i/ps7_0/inst/FCLK_CLK_unbuffered[1]                                             |             7.0 |
-| clk_fpga_2                                             | base_i/ps7_0/inst/FCLK_CLK_unbuffered[2]                                             |             5.0 |
-| clk_fpga_3                                             | base_i/ps7_0/inst/FCLK_CLK_unbuffered[3]                                             |            10.0 |
-| clk_out1_base_clk_wiz_10MHz_0                          | base_i/clk_wiz_10MHz/inst/clk_out1_base_clk_wiz_10MHz_0                              |           100.0 |
-| clkfbout_base_clk_wiz_10MHz_0                          | base_i/clk_wiz_10MHz/inst/clkfbout_base_clk_wiz_10MHz_0                              |            20.0 |
-| hdmi_in_PixelClk                                       | base_i/video/hdmi_in/frontend/dvi2rgb_0/U0/TMDS_ClockingX/rMMCM_LckdRisingFlag_reg_0 |             8.3 |
-| hdmi_in_clk_p                                          | hdmi_in_clk_p                                                                        |             8.3 |
-| mmcm_fbclk_out                                         | base_i/video/hdmi_out/frontend/axi_dynclk/U0/Inst_mmcme2_drp/mmcm_fbclk_out          |            10.0 |
-+--------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+
+| Clock                                                                                      | Domain                                                                               | Constraint (ns) |
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+
+| CLKFBIN                                                                                    | base_i/video/hdmi_in/frontend/dvi2rgb_0/U0/TMDS_ClockingX/CLKFBIN                    |             8.3 |
+| CLK_OUT_5x_hdmi_clk                                                                        | base_i/video/hdmi_in/frontend/dvi2rgb_0/U0/TMDS_ClockingX/CLK_OUT_5x_hdmi_clk        |             1.7 |
+| I                                                                                          | base_i/video/hdmi_out/frontend/axi_dynclk/U0/Inst_mmcme2_drp/I                       |             2.0 |
+| I                                                                                          | base_i/video/hdmi_out/frontend/axi_dynclk/U0/PXL_CLK_5X_O                            |             2.0 |
+| axi_dynclk_0_PXL_CLK_O                                                                     | base_i/video/hdmi_out/frontend/axi_dynclk/U0/PXL_CLK_O                               |            10.0 |
+| base_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK                                       | base_i/mdm_1/U0/Use_E2.BSCAN_I/DRCK                                                  |            33.3 |
+| base_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE                                     | base_i/mdm_1/U0/Use_E2.BSCAN_I/Ext_JTAG_UPDATE                                       |            33.3 |
+| clk_fpga_0                                                                                 | base_i/ps7_0/inst/FCLK_CLK0                                                          |            10.0 |
+| clk_fpga_0                                                                                 | base_i/ps7_0/inst/FCLK_CLK_unbuffered[0]                                             |            10.0 |
+| clk_fpga_1                                                                                 | base_i/ps7_0/inst/FCLK_CLK_unbuffered[1]                                             |             7.0 |
+| clk_fpga_2                                                                                 | base_i/ps7_0/inst/FCLK_CLK_unbuffered[2]                                             |             5.0 |
+| clk_fpga_3                                                                                 | base_i/ps7_0/inst/FCLK_CLK_unbuffered[3]                                             |            10.0 |
+| clk_out1_base_clk_wiz_10MHz_0                                                              | base_i/clk_wiz_10MHz/inst/clk_out1_base_clk_wiz_10MHz_0                              |           100.0 |
+| clkfbout_base_clk_wiz_10MHz_0                                                              | base_i/clk_wiz_10MHz/inst/clkfbout_base_clk_wiz_10MHz_0                              |            20.0 |
+| dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/tck_bs                 |            33.0 |
+| hdmi_in_PixelClk                                                                           | base_i/video/hdmi_in/frontend/dvi2rgb_0/U0/TMDS_ClockingX/rMMCM_LckdRisingFlag_reg_0 |             8.3 |
+| hdmi_in_clk_p                                                                              | hdmi_in_clk_p                                                                        |             8.3 |
+| mmcm_fbclk_out                                                                             | base_i/video/hdmi_out/frontend/axi_dynclk/U0/Inst_mmcme2_drp/mmcm_fbclk_out          |            10.0 |
++--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-----------------+
 
 
 3. Detailed Reports
@@ -171,7 +172,7 @@ Table of Contents
 +-----------------------------------+-----------+
 | Name                              | Power (W) |
 +-----------------------------------+-----------+
-| base_wrapper                      |     2.360 |
+| base_wrapper                      |     2.379 |
 |   IIC_1_scl_iobuf                 |     0.005 |
 |   IIC_1_sda_iobuf                 |     0.005 |
 |   arduino_gpio_tri_iobuf_0        |     0.001 |
@@ -183,17 +184,17 @@ Table of Contents
 |   arduino_gpio_tri_iobuf_2        |     0.001 |
 |   arduino_gpio_tri_iobuf_3        |     0.001 |
 |   arduino_gpio_tri_iobuf_9        |     0.001 |
-|   base_i                          |     2.293 |
+|   base_i                          |     2.283 |
 |     audio_codec_ctrl_0            |     0.001 |
 |       U0                          |     0.001 |
 |     audio_ctrl_codec_interconnect |     0.003 |
 |       s01_couplers                |     0.002 |
-|     axi_interconnect_0            |     0.006 |
-|       xbar                        |     0.006 |
+|     axi_interconnect_0            |     0.004 |
+|       xbar                        |     0.004 |
 |     axi_mem_intercon              |     0.002 |
 |     clk_wiz_10MHz                 |     0.107 |
 |       inst                        |     0.107 |
-|     iop_arduino                   |     0.092 |
+|     iop_arduino                   |     0.091 |
 |       arduino_gpio                |     0.002 |
 |       iic_direct                  |     0.002 |
 |       io_switch                   |     0.001 |
@@ -210,7 +211,7 @@ Table of Contents
 |       lmb                         |     0.023 |
 |       mb                          |     0.011 |
 |       mb_bram_ctrl                |     0.003 |
-|       microblaze_0_axi_periph     |     0.009 |
+|       microblaze_0_axi_periph     |     0.008 |
 |       spi                         |     0.004 |
 |       timer                       |     0.003 |
 |     iop_pmodb                     |     0.059 |
@@ -221,8 +222,8 @@ Table of Contents
 |       mb_bram_ctrl                |     0.002 |
 |       microblaze_0_axi_periph     |     0.009 |
 |       spi                         |     0.004 |
-|       timer                       |     0.003 |
-|     iop_rpi                       |     0.071 |
+|       timer                       |     0.004 |
+|     iop_rpi                       |     0.070 |
 |       iic_subsystem               |     0.004 |
 |       io_switch                   |     0.001 |
 |       lmb                         |     0.024 |
@@ -230,13 +231,12 @@ Table of Contents
 |       mb_bram_ctrl                |     0.002 |
 |       microblaze_0_axi_periph     |     0.010 |
 |       rpi_gpio                    |     0.002 |
-|       spi_subsystem               |     0.008 |
+|       spi_subsystem               |     0.007 |
 |       timers_subsystem            |     0.007 |
 |     ps7_0                         |     1.276 |
 |       inst                        |     1.276 |
 |     ps7_0_axi_periph              |     0.046 |
-|       m00_couplers                |     0.005 |
-|       m01_couplers                |     0.001 |
+|       m00_couplers                |     0.004 |
 |       m02_couplers                |     0.004 |
 |       m03_couplers                |     0.004 |
 |       m04_couplers                |     0.005 |
@@ -246,10 +246,10 @@ Table of Contents
 |       m08_couplers                |     0.004 |
 |       s00_couplers                |     0.002 |
 |       xbar                        |     0.011 |
-|     ps7_0_axi_periph1             |     0.015 |
+|     ps7_0_axi_periph1             |     0.014 |
 |       m00_couplers                |     0.002 |
-|       m01_couplers                |     0.002 |
-|       m02_couplers                |     0.002 |
+|       m01_couplers                |     0.001 |
+|       m02_couplers                |     0.001 |
 |       m03_couplers                |     0.002 |
 |       s00_couplers                |     0.002 |
 |       xbar                        |     0.006 |
@@ -259,21 +259,25 @@ Table of Contents
 |       inst                        |     0.024 |
 |     system_interrupts             |     0.001 |
 |       U0                          |     0.001 |
-|     trace_analyzer_pi             |     0.011 |
+|     trace_analyzer_pi             |     0.010 |
 |       axi_dma_0                   |     0.005 |
 |       axis_data_fifo_0            |     0.002 |
 |       trace_cntrl_64_0            |     0.003 |
 |     trace_analyzer_pmodb          |     0.008 |
-|       axi_dma_0                   |     0.005 |
+|       axi_dma_0                   |     0.004 |
 |       axis_data_fifo_0            |     0.001 |
 |       trace_cntrl_32_0            |     0.002 |
-|     video                         |     0.505 |
-|       axi_interconnect_0          |     0.016 |
+|     video                         |     0.503 |
+|       axi_interconnect_0          |     0.015 |
 |       axi_mem_intercon            |     0.006 |
 |       axi_vdma                    |     0.021 |
-|       hdmi_in                     |     0.183 |
-|       hdmi_out                    |     0.279 |
+|       hdmi_in                     |     0.182 |
+|       hdmi_out                    |     0.280 |
+|   dbg_hub                         |     0.003 |
+|     inst                          |     0.003 |
+|       BSCANID.u_xsdbm_id          |     0.003 |
 |   pmoda_rpi_gpio_tri_iobuf_0      |     0.001 |
+|   pmoda_rpi_gpio_tri_iobuf_1      |     0.001 |
 |   pmoda_rpi_gpio_tri_iobuf_3      |     0.001 |
 |   pmoda_rpi_gpio_tri_iobuf_4      |     0.001 |
 |   pmoda_rpi_gpio_tri_iobuf_5      |     0.001 |
@@ -287,6 +291,9 @@ Table of Contents
 |   rpi_gpio_tri_iobuf_5            |     0.001 |
 |   rpi_gpio_tri_iobuf_7            |     0.001 |
 |   rpi_gpio_tri_iobuf_9            |     0.001 |
+|   u_ila_0                         |     0.026 |
+|     inst                          |     0.026 |
+|       ila_core_inst               |     0.026 |
 +-----------------------------------+-----------+
 
 

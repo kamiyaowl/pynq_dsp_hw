@@ -66,10 +66,8 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
-  create_project -in_memory -part xc7z020clg400-1
-  set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/impl_1/base_wrapper.dcp
   set_property webtalk.parent_dir C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.cache/wt [current_project]
   set_property parent.project_path C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.xpr [current_project]
   set_property ip_repo_paths {
@@ -80,18 +78,6 @@ set rc [catch {
   set_property ip_output_repo C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.runs/synth_1/base_wrapper.dcp
-  set_msg_config -source 4 -id {BD 41-1661} -limit 0
-  set_param project.isImplRun true
-  add_files C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/base.bd
-  set_param project.isImplRun false
-  read_xdc C:/Users/user/repos/pynq_dsp_hw/pynq-z2_v1.0.xdc
-  read_xdc C:/Users/user/repos/PYNQ-origin/boards/Pynq-Z2/base/vivado/constraints/base.xdc
-  read_xdc C:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/constrs_1/new/debug.xdc
-  set_param project.isImplRun true
-  link_design -top base_wrapper -part xc7z020clg400-1
-  set_param project.isImplRun false
-  write_hwdef -force -file base_wrapper.hwdef
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
@@ -171,6 +157,18 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
+  add_files c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_0/data/mb_bootloop_le.elf
+  set_property SCOPED_TO_REF base [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_0/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS iop_arduino/mb [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_0/data/mb_bootloop_le.elf]
+  add_files c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_1/data/mb_bootloop_le.elf
+  set_property SCOPED_TO_REF base [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_1/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS iop_pmoda/mb [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_1/data/mb_bootloop_le.elf]
+  add_files c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_2/data/mb_bootloop_le.elf
+  set_property SCOPED_TO_REF base [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_2/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS iop_pmodb/mb [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_2/data/mb_bootloop_le.elf]
+  add_files c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_3/data/mb_bootloop_le.elf
+  set_property SCOPED_TO_REF base [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_3/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS iop_rpi/mb [get_files -all c:/Users/user/repos/pynq_dsp_hw/pynq_dsp_hw/pynq_dsp_hw.srcs/sources_1/bd/base/ip/base_mb_3/data/mb_bootloop_le.elf]
   catch { write_mem_info -force base_wrapper.mmi }
   catch { write_bmm -force base_wrapper_bd.bmm }
   write_bitstream -force base_wrapper.bit 
